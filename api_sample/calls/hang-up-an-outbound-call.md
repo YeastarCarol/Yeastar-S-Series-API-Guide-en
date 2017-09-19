@@ -6,7 +6,7 @@ Through this interface, the specified outbound call can be terminated.
 
 **Request address:**
 
-[https://192.168.5.150:8088/api/v1.0.0/outbound/hangup?token=6cad9cee6e2ad94570636e7b3690aeb2](https://192.168.5.150:8088/api/v1.0.0/outbound/hangup?token=6cad9cee6e2ad94570636e7b3690aeb2)
+[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.0/outbound/hangup?token=6cad9cee6e2ad94570636e7b3690aeb2){version}[/outbound/hangup?token=6cad9cee6e2ad94570636e7b3690aeb2](https://192.168.5.150:8088/api/v1.0.0/outbound/hangup?token=6cad9cee6e2ad94570636e7b3690aeb2)
 
 **Request sample:**
 
