@@ -23,6 +23,7 @@
     * [Query One or More Queues](api_sample/queues/query-one-or-more-queues.md)
     * [Configure an Individual Queue](api_sample/queues/configure-an-individual-queue.md)
   * [Calls](api_sample/calls.md)
+    * [Query Inbound Calls](api_sample/calls/query-inbound-calls.md)
   * [Hotel Wake-up Service ](api_sample/hotel_wake-up_service.md)
   * [System Report](api_sample/system_report.md)
   * [Call Report](api_sample/call_report.md)
