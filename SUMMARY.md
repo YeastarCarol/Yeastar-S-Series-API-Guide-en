@@ -9,6 +9,7 @@
 * [API Sample](api_sample/README.md)
   * [API Authentication](api_sample/api_authentication.md)
   * [System](api_sample/system.md)
+    * Device Information
   * [Extension](api_sample/extension.md)
   * [Trunk](api_sample/trunk.md)
   * [IVR](api_sample/ivr.md)
