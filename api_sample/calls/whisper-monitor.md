@@ -10,6 +10,10 @@ Through this interface, an extension can monitor another extension's call in Whi
 
 3. If the operation is successful, extension A will auto answer and start monitoring the extension B's conversation.
 
+注：有的话机或软电话可能不支持自动应答，则话机或软电话会先响铃，手动接听后开始监听。
+
+Note: some IP phone modols and softphones do not support auto answer. In this case, IP phones or softphones will ring first, and users need to pick up the call manually to start monitoring.
+
 **Conditions**
 
 1. The monitor extension's monitor mode should be Extensive or Whisper;
@@ -22,7 +26,7 @@ Through this interface, an extension can monitor another extension's call in Whi
 
 **Request address:**
 
-[https://192.168.5.150:8088/api/v1.0.0/extension/whisper?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/extension/whisper?token=7d20390952e15eb72b0a1df7172de65c)
+[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.0/extension/whisper?token=7d20390952e15eb72b0a1df7172de65c){version}[/extension/whisper?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/extension/whisper?token=7d20390952e15eb72b0a1df7172de65c)
 
 **Request sample:**
 
@@ -32,8 +36,8 @@ Through this interface, an extension can monitor another extension's call in Whi
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
-| **&lt;whisperer&gt;** | String | The monitor | 1005 |
-| **&lt;whisperedext&gt;** | String | The monitored extension | 1002 |
+| **&lt;whisperer&gt;** | Int | The monitor | 1005 |
+| **&lt;whisperedext&gt;** | Int | The monitored extension | 1002 |
 
 **Response sample:**
 
