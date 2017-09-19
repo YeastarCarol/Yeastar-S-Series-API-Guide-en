@@ -11,7 +11,7 @@ Through this interface, an extension could dial an external number through the P
 
 **Request address:**
 
-[https://192.168.5.150:8088/api/v1.0.0/extension/dial\_outbound?token=285f99b2221c6b8c12d52eba3a88a5f7](https://192.168.5.150:8088/api/v1.0.0/extension/dial_outbound?token=285f99b2221c6b8c12d52eba3a88a5f7)
+[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.0/extension/dial_outbound?token=285f99b2221c6b8c12d52eba3a88a5f7){version}[/extension/dial\_outbound?token=285f99b2221c6b8c12d52eba3a88a5f7](https://192.168.5.150:8088/api/v1.0.0/extension/dial_outbound?token=285f99b2221c6b8c12d52eba3a88a5f7)
 
 **Request sample:**
 
@@ -21,7 +21,7 @@ Through this interface, an extension could dial an external number through the P
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
-| **&lt;extid&gt;** | String | The extension number | 1002 |
+| **&lt;extid&gt;** | Int | The extension number | 1002 |
 | **&lt;outto&gt;** | String | The external number | 41000 |
 | **\[autoanswer\]** | String | Whether to auto answer the call or not. This parameter only applies the SIP phone to support. It means "no" if the parameter has not been specified. | Yes/No |
 

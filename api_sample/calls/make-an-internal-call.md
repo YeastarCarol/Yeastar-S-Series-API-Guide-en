@@ -31,7 +31,7 @@ Send the request to make extension A dial extension B. Extension A will ring fir
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
 | **&lt;status&gt;** | String | Result | Success or Failed |
-| **\[callid\]** | String | The ID of the internal call | 1505193218.96 |
+| **\[callid\]** | String | A unique Identifier for the call | 1505193218.96 |
 
 **Possible error code:** 10004, 10006, 30001
 
