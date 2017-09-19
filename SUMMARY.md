@@ -20,6 +20,8 @@
     * [Query One or More IVRs](api_sample/ivr/query-one-or-more-ivrs.md)
     * [Configure an Individual IVR](api_sample/ivr/configure-an-individual-ivr.md)
   * [Queues](api_sample/queues.md)
+    * [Query One or More Queues](api_sample/queues/query-one-or-more-queues.md)
+    * [Configure an Individual Queue](api_sample/queues/configure-an-individual-queue.md)
   * [Calls](api_sample/calls.md)
   * [Hotel Wake-up Service ](api_sample/hotel_wake-up_service.md)
   * [System Report](api_sample/system_report.md)

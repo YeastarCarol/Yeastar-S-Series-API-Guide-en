@@ -1,0 +1,55 @@
+### Configure an Individual Queue {#configure-an-individual-queue}
+
+Through this interface, developers could configure an individual queue.
+
+**Request method:** POST
+
+**Request address:**
+
+[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.0/queue/update?token=7d20390952e15eb72b0a1df7172de65c){version}[/queue/update?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/queue/update?token=7d20390952e15eb72b0a1df7172de65c)
+
+**Request sample:**
+
+{"queueid": "6701","queuenumber":"6701"}
+
+**Request parameters descriptions:**
+
+| **Parameter Name** | **Type** | **Description** | **Sample** |
+| :--- | :--- | :--- | :--- |
+| **&lt;queueid&gt;** | Int | The requested queue number | 6200 |
+| **\[queuenumber\]** | Int | The modified queue number | 6200 |
+| **\[queuename\]** | String | The queue name | !$\(\)\/\#;,\"=&lt;&gt;&'\`^%@{}\| are invalid. Neither is space character valid. Maximum length is 31. Cannot be blank. |
+| **\[password\]** | String | The password to join dynamic agent | Digits. Maximum length is 127. |
+| **\[ringstrategy\]** | String | The ring strategy | Options: Ring All, Least Recent, Fewest Calls, Random, RRmemory, Linear |
+| **\[failoveraction\]** | String | The failover destination. | Options: Hangup, Extension, Voicemail, IVR, Ring Group, Queue, Conference, Fax to Email, Dial by name |
+| **\[failoverdest\]** | String | The failover destination. |  |
+| **\[agents\]** | String | Static agents | 1000, 1001 |
+| **\[agenttimeout\]** | Int | The agent timeout | Options: 10, 20, 30, 40 50 |
+| **\[wrapuptime\]** | Int | The wrap-up time | Options: 10, 20, 30, 40 50 |
+| **\[ringinuse\]** | String | Ring the members whose device are known to be “in use” | On: enable Off: disable |
+| **\[retry\]** | Int | The number of seconds to wait before trying all the phones again | Options: 10, 20, 30, 40 50 |
+| **\[maxwaittime\]** | Int | The caller max wait time | Options: 300, 600, 900, 1200, 1800 |
+| **\[joinempty\]** | String | Allow callers to join a queue that has no agents | On: enable  Off: disable |
+| **\[leavewhenempty\]** | String | Callers already on hold will be forced out of a queue when no agents are available. | On: enable  Off: disable |
+| **\[announcepos\]** | String | Announce position of caller in the queue. | On: enable  Off: disable |
+| **\[announcefreq\]** | String | How often to announce queue position and estimated hold time. | Options: 0, 15, 30, 45, 60, 120, 180, 240, 300, 600, 1200 |
+| **\[announceholdtime\]** | Int | Announce the hold time to the caller periodically | On: enable  Off: disable |
+| **\[userannouncefreq\]** | Int | How often to play the periodic announcements. | Options: 0, 15, 30, 45, 60, 120, 180, 240, 300, 600, 1200 |
+| **\[breakoutkey\]** | String | The breakout key | Options: None, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, \*, \# |
+| **\[breakoutaction\]** | String | The breakout action | Options: Hang up, Extension, Voicemail, IVR, Ring Group, Queue, Conference, Fax to Email, Dial by Name |
+| **\[breakoutdest\]** | String | The breakout destination |  |
+| \[idannouncement\] | String | The name of the prompt that announce the agent ID. It is "None" by default. Note: When querying one or more queues, this parameter is bound to return value\(s\). | None |
+| \[satisfactionsurvey\] | String | The name of the prompt for customer satisfaction survey. If not configured, the prompt will not be played. It is "none" by default. | None |
+
+**Response sample:**
+
+{"status":"Success"}
+
+**Response parameters descriptions:**
+
+| **Parameter Name** | **Type** | **Description** | **Sample** |
+| --- | --- | --- | --- |
+| **&lt;status&gt;** | String | IVR configuration result | Success or Failed |
+
+**Possible error code:** 10013, 10019, 30001
+
