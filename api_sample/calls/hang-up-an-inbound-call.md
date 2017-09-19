@@ -6,7 +6,7 @@ Through this interface, the specified inbound call can be terminated.
 
 **Request address:**
 
-[https://192.168.5.150:8088/api/v1.0.0/inbound/hangup?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/inbound/hangup?token=7d20390952e15eb72b0a1df7172de65c)
+[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.0/inbound/hangup?token=7d20390952e15eb72b0a1df7172de65c){version}[/inbound/hangup?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/inbound/hangup?token=7d20390952e15eb72b0a1df7172de65c)
 
 **Request sample:**
 
