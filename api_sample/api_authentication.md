@@ -46,33 +46,43 @@ S-Series VoIP PBX API uses username and password credentials for authentication.
 
 ### Heartbeat Packet {#heartbeat-packet}
 
-With heartbeat packet, S-Series VoIP PBX can update IP, Port, and URL. Token can also be updated, so to avoid failure of report if token was erased after 1900s.
+当连接IPPBX的第三方应用的IP地址、监听端口或者URL有变更的时候，可通过API的心跳包接口对IP, Port, URL进行更新。同时当第三方应用和API没有事件交互的时候，可利用此接口定期发送请求从而更新token的有效时长，避免token在1800秒超时后被清除，造成事件不会上报以及请求失败。
+
+With heartbeat packet, S-Series VoIP PBX can update IP, Port, and URL of the conntected 3rd party application server if there are any changes. In addition, when there is no event interaction between the application server and S-Series API, heartbeat packets can be sent to the IPPBX periodically to prolong the validity time of the token, so to avoid failure of report if the token was erased after 1800s.
+
+注：发送一次心跳包请求可使token的有效时长延长1800秒。
+
+**Note:** every time a heartbeat packet is sent, the validity time of the token will be prolonged for 1800s.
 
 **Request method:** POST
 
-**Request address:**
-
-[https://192.168.5.150:8088/api/v1.0.0/heartbeat?token=48a7d7481a5355aa4fb5dc285edeb40e](https://192.168.5.150:8088/api/v1.0.0/heartbeat?token=48a7d7481a5355aa4fb5dc285edeb40e)
+**Request address: **[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.0/heartbeat?token=48a7d7481a5355aa4fb5dc285edeb40e){version}[/heartbeat?token=48a7d7481a5355aa4fb5dc285edeb40e](https://192.168.5.150:8088/api/v1.0.0/heartbeat?token=48a7d7481a5355aa4fb5dc285edeb40e)
 
 **Request sample:**
 
-{"ipaddr": "192.168.11.144","port": "8260","url":"1112121212"}
+{"ipaddr": "192.168.5.150","port": "8260","url":"1112121212"}
 
 **Request parameters descriptions:**
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
-| **&lt;ipaddr&gt;** | String | IP | 192.168.12.144 |
-| **&lt;port&gt;** | String | The port number, this port will be used by the application server to monitor the report sent by API. | 0&lt;port&lt;65536 |
-| **\[url\]** | String | URL of the application server |  |
+| **&lt;ipaddr&gt;** | String | Updated IP address of the application server | 192.168.5.150 |
+| **&lt;port&gt;** | String | Updated port number; this port will be used by the application server to monitor the report sent by API. | 0&lt;port&lt;65536 |
+| **\[url\]** | String | Updated URL of the application server |  |
 
-### Logout {#logout}
+**Response sample:**
+
+{"status":"Success"}
+
+### Logout
+
+**Note:** The token used in the Request sample below is the token returned when S-Series API login authentication is passed.
 
 **Request method:** POST
 
 **Request sample:**
 
-[https://192.168.5.150:8088/api/v1.0.0/logout?token=48a7d7481a5355aa4fb5dc285edeb40e](https://192.168.5.150:8088/api/v1.0.0/logout?token=48a7d7481a5355aa4fb5dc285edeb40e)
+[https://192.168.5.150:8088/api/](#){version}[/logout?token=48a7d7481a5355aa4fb5dc285edeb40e](#)
 
 **Response sample:**
 
