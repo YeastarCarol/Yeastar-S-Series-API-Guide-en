@@ -6,7 +6,7 @@ Through this interface, an outbound call made with an external number being dial
 
 **Request address:**
 
-[https://192.168.5.150:8088/api/v1.0.1/queue/dial\_outbound?token=25e9c77a705e6da650082dc1409fb68e](https://192.168.5.150:8088/api/v1.0.1/queue/dial_outbound?token=25e9c77a705e6da650082dc1409fb68e)
+[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.1/queue/dial_outbound?token=25e9c77a705e6da650082dc1409fb68e){version}[/queue/dial\_outbound?token=25e9c77a705e6da650082dc1409fb68e](https://192.168.5.150:8088/api/v1.0.1/queue/dial_outbound?token=25e9c77a705e6da650082dc1409fb68e)
 
 **Request sample:**
 
@@ -16,9 +16,9 @@ Through this interface, an outbound call made with an external number being dial
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
-| **&lt; queueid&gt;** | String | The queue number | 6200 |
-| **&lt;outto&gt;** | String | The external number | 18045924562 |
-| **&lt;fromext&gt;** | String | Which extension's call permission will be applied | 1000 |
+| **&lt; queueid&gt;** | Int | The queue number | 6700 |
+| **&lt;outto&gt;** | String | The external number | 118396210850 |
+| **&lt;fromext&gt;** | String | Which extension's call permission will be applied | 1000000 |
 
 **Response sample:**
 
@@ -29,7 +29,7 @@ Through this interface, an outbound call made with an external number being dial
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
 | **&lt;status&gt;** | String | Result | Success or Failed |
-| **&lt;callid&gt;** | String | A unique identifier for the call |  |
+| **&lt;callid&gt;** | String | A unique identifier for the call | 1501126620.23 |
 
 ###  {#dial-an-external-number-in-a-ring-group}
 
