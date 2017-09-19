@@ -8,7 +8,7 @@ Note: the call can be transferred whether it's a ringing call or an ongoing call
 
 **Request address:**
 
-[https://192.168.5.150:8088/api/v1.0.0/inbound/transfer\_ivr?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/inbound/transfer_ivr?token=7d20390952e15eb72b0a1df7172de65c)
+[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.0/inbound/transfer_ivr?token=7d20390952e15eb72b0a1df7172de65c){version}[/inbound/transfer\_ivr?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/inbound/transfer_ivr?token=7d20390952e15eb72b0a1df7172de65c)
 
 **Request sample:**
 
@@ -18,8 +18,8 @@ Note: the call can be transferred whether it's a ringing call or an ongoing call
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
-| **&lt;inboundid&gt;** | int | The inbound ID | 1495698591.209 |
-| **&lt;ivrid&gt;** | int | The IVR number | 6500 |
+| **&lt;inboundid&gt;** | String | The inbound ID | 1495698591.209 |
+| **&lt;ivrid&gt;** | Int | The IVR number | 6500 |
 
 **Response sample:**
 
