@@ -12,7 +12,7 @@ Through this interface, an extension can monitor another extension's call in Whi
 
 注：有的话机或软电话可能不支持自动应答，则话机或软电话会先响铃，手动接听后开始监听。
 
-Note: some IP phone modols and softphones do not support auto answer. In this case, IP phones or softphones will ring first, and users need to pick up the call manually to start monitoring.
+Note: some IP phone modols or softphones may not support auto answer. In this case, IP phones or softphones will ring first, and users need to pick up the call manually to start monitoring.
 
 **Conditions**
 
