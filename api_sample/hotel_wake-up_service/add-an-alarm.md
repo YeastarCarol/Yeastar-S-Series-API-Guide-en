@@ -29,7 +29,7 @@ For example:
 | **&lt;extid&gt;** | Int | The extension number | 1000 |
 | **&lt;wakeup&gt;** | Object | Object |  |
 | **&lt;time&gt;** | String | Time | 11:22 |
-| **&lt;type&gt;** | String | Type, when the &lt;type&gt; is "onetime", the alarm will be deleted after the alarmhas repeated for designated times. | Options: onetime, everyday, custom |
+| **&lt;type&gt;** | String | Type, when the &lt;type&gt; is "onetime", the alarm will be deleted after the alarm has repeated for the designated times. | Options: onetime, everyday, custom |
 | **\[weekdays\]** | String | The options available when the above &lt;type&gt; is "custom" | Options:1, 2, 3, 4, 5, 6, 0      1 to 6 correspond to Monday to Saturday, 0 corresponds to Sunday |
 | **\[repeats\]** | String | How many times will the alarm be repeated | Options: 1, 2, 3 |
 | **\[Repeatinterval\]** | String | The interval in minutes between each repeat | 5 |
