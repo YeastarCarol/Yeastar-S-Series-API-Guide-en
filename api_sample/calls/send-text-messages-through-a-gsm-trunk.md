@@ -10,7 +10,7 @@ Note: A text message have a maximum length of 2000 characters and no emoji shoul
 
 **Request address:**
 
-[https://192.168.5.150:8088/api/v1.0.1/sms/send?token=42af22de1f4b884950310d132232b4b5](https://192.168.5.150:8088/api/v1.0.1/sms/send?token=42af22de1f4b884950310d132232b4b5)
+[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.1/sms/send?token=42af22de1f4b884950310d132232b4b5){version}[/sms/send?token=42af22de1f4b884950310d132232b4b5](https://192.168.5.150:8088/api/v1.0.1/sms/send?token=42af22de1f4b884950310d132232b4b5)
 
 **Request sample:**
 
@@ -42,7 +42,9 @@ Message Sending Failed:
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
+| **&lt;action&gt;** | Object | Result | sms-send |
 | **&lt;status&gt;** | String | Result | Success or Failed |
+| **&lt;smsid&gt;** | String | A unique identifier of the message | 18396210850-1502874159 |
 
 **Possible error code:** 10027
 
