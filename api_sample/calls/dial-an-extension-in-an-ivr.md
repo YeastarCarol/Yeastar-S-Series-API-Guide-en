@@ -10,7 +10,7 @@ Through this interface, an extension can be dialed while in an IVR in order to:
 
 **Request address:**
 
-[https://192.168.5.150:8088/api/v1.0.0/ivr/dial\_extension?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/ivr/dial_extension?token=7d20390952e15eb72b0a1df7172de65c)
+[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.0/ivr/dial_extension?token=7d20390952e15eb72b0a1df7172de65c){version}[/ivr/dial\_extension?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/ivr/dial_extension?token=7d20390952e15eb72b0a1df7172de65c)
 
 **Request sample:**
 
@@ -20,8 +20,8 @@ Through this interface, an extension can be dialed while in an IVR in order to:
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
-| **&lt;ivrid&gt;** | String | The IVR number | 6000 |
-| **&lt;extid&gt;** | String | The extension number | 2000 |
+| **&lt;ivrid&gt;** | Int | The IVR number | 6500 |
+| **&lt;extid&gt;** | String | The extension number | 1002 |
 | **&lt;autoanswer&gt;** | String | Whether the extension will auto answer the call or not. This parameter requires the SIP phone to support. It means "no" if the parameter has not been specified. | Yes/No |
 
 **Response sample:**
