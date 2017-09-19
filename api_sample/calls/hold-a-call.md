@@ -8,7 +8,7 @@ Use the "Resume Call on Hold" interface to resume the call. The call can also be
 
 **Request address:**
 
-[https://192.168.5.150:8088/api/v1.0.0/extension/hold?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/extension/hold?token=7d20390952e15eb72b0a1df7172de65c)
+[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.0/extension/hold?token=7d20390952e15eb72b0a1df7172de65c){version}[/extension/hold?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/extension/hold?token=7d20390952e15eb72b0a1df7172de65c)
 
 **Request sample:**
 
@@ -18,7 +18,7 @@ Use the "Resume Call on Hold" interface to resume the call. The call can also be
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
-| **&lt;extid&gt;** | String | Put the extension's call on hold | 1000 |
+| **&lt;extid&gt;** | Int | Put the extension's call on hold | 1000 |
 
 **Response sample:**
 
