@@ -47,11 +47,11 @@ Through this interface, developers could fetch detailed information about an ind
 | &lt;vmsecret&gt; | int | The voicemail password | 3000 |
 | &lt;enablevmtoemail&gt; | string | Whether to enable Send Voicemail to Email feature or not | On: enable   Off: disable |
 | \[alwaysforward\] | string | Enable or disable Always Call Forwarding feature | On: enable   Off: disable |
-| \[atransferto\] \[atransferext\] \[atransferprefix\] \[atransfernum\] | string | Alway Call Forwarding destination. If choosing to always forward calls to an extension, the designated extension number should be configured; if choosing to always forward calls to an external number, the external number and the corresponding call rule should be configured. | Voicemail: voicemail Extension: ext1000 Mobile Number: mobile1399999999Custom Number: number95923333 |
+| \[atransferto\] \[atransferext\] \[atransferprefix\] \[atransfernum\] | string | Alway Call Forwarding destination. When forwarding destination is an extension number, the designated extension number should be configured; When forwarding destination is a custom number, the custom number and the corresponding call rule should be configured. | Voicemail: voicemail Extension: ext1000 Mobile Number: mobile1399999999Custom Number: number95923333 |
 | \[noanswerforward\] | string | Enable or disable No Answer Call Forwarding feature | On: enable  Off: disable |
-| \[ntransferto\] \[ntransferext\] \[ntransferprefix\] \[ntransfernum\] | string | No answer call forwarding destination. If choosing to always forward calls to an extension, the designated extension number should be configured; if choosing to always forward calls to an external number, the external number and the corresponding call rule should be configured. | Voicemail: voicemail Extension: ext1000 Mobile Number: mobile1399999999 Custom Number: number95923333 |
+| \[ntransferto\] \[ntransferext\] \[ntransferprefix\] \[ntransfernum\] | string | No answer call forwarding destination. When forwarding destination is an extension number, the designated extension number should be configured; when the forwarding destion is a custom number, the custom number and the corresponding call rule should be configured. | Voicemail: voicemail Extension: ext1000 Mobile Number: mobile1399999999 Custom Number: number95923333 |
 | \[busyforward\] | string | Enable or disable When Busy Call Forwarding feature | On: enable  Off: disable |
-| \[btransferto\] \[btransferext\] \[btransferprefix\] \[btransfernum\] | string | When busy call forwarding destination. If choosing to always forward calls to an extension, the designated extension number should be configured; if choosing to always forward calls to an external number, the external number and the corresponding call rule should be configured. | Voicemail: voicemail Extension: ext1000 Mobile Number: mobile1399999999 Custom Number: number95923333 |
+| \[btransferto\] \[btransferext\] \[btransferprefix\] \[btransfernum\] | string | When busy call forwarding destination. When the forwarding destination is an extension, the designated extension number should be configured; when the forwarding destination is a custom number, the custom number and the corresponding call rule should be configured. | Voicemail: voicemail Extension: ext1000 Mobile Number: mobile1399999999 Custom Number: number95923333 |
 | \[enablemobile\] | string | Enable or disable Mobility Extension feature | On: enable  Off: disable |
 | \[ringsimultaneous\] | string | Enable or disable Simultaneous Ringing of Mobility Extension | On: enable  Off: disable |
 | \[mobileprefix\] | string | A prefix match ing the outbound route | Blank or a specific prefix |
@@ -61,7 +61,7 @@ Through this interface, developers could fetch detailed information about an ind
 | &lt;maxduration&gt; | string | The maximum call duration allowed in seconds | 600 |
 | &lt;dnd&gt; | string | Enable or disable DND feature | On: enable  Off: disable |
 | &lt;callrestriction&gt; | string | Enable or disable outbound dialing restriction | On: enable  Off: disable |
-| &lt;agentid&gt; | string | The agent ID to be announced in the greeting prompt. This parameter is null by default and, if left null, the extension number will be announced automatically. | 6362 |
+| &lt;agentid&gt; | string | The agent ID to be announced in the greeting prompt. If left null, the extension number will be announced instead. It is null by default. | 6362 |
 | \[inbound\] | object | Inbound calls, external numbers dial-in | N/A |
 | &lt;inboundid&gt; | int | The inbound ID. With this parameter, operations like forwarding, query, and hangup can be performed. | 156785 |
 | &lt;from&gt; | string | The caller's number | 1000 |
