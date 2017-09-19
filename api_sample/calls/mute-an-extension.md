@@ -6,7 +6,7 @@ Through this interface, the specified extension in a call can be muted. As a res
 
 **Request address:**
 
-[https://192.168.5.150:8088/api/v1.0.0/extension/mute?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/extension/mute?token=7d20390952e15eb72b0a1df7172de65c)
+[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.0/extension/mute?token=7d20390952e15eb72b0a1df7172de65c){version}[/extension/mute?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/extension/mute?token=7d20390952e15eb72b0a1df7172de65c)
 
 **Request sample:**
 
@@ -16,7 +16,7 @@ Through this interface, the specified extension in a call can be muted. As a res
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
-| **&lt;extid&gt;** | String | Mute an extension | 1000 |
+| **&lt;extid&gt;** | Int | Mute an extension | 1000 |
 
 **Response sample:**
 
@@ -29,8 +29,6 @@ Through this interface, the specified extension in a call can be muted. As a res
 | **&lt;status&gt;** | String | Result | Success or Failed |
 
 **Possible error code:** 10004, 10007, 30001
-
-###  {#unmute-an-extension}
 
 
 
