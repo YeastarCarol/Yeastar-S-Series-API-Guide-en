@@ -12,7 +12,7 @@ When Busy/No Answer
 
 **Request address:**
 
-[https://192.168.5.150:8088/api/v1.0.0/inbound/transfer\_ringgroup?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/inbound/transfer_ringgroup?token=7d20390952e15eb72b0a1df7172de65c)
+[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.0/inbound/transfer_ringgroup?token=7d20390952e15eb72b0a1df7172de65c){version}[/inbound/transfer\_ringgroup?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/inbound/transfer_ringgroup?token=7d20390952e15eb72b0a1df7172de65c)
 
 **Request sample:**
 
@@ -22,8 +22,8 @@ When Busy/No Answer
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
-| **&lt;inboundid&gt;** | int | The inbound ID | 1495700191.223 |
-| **&lt;ringgroupid&gt;** | int | The ring group number | 6200 |
+| **&lt;inboundid&gt;** | String | The inbound ID | 1495700191.223 |
+| **&lt;ringgroupid&gt;** | Int | The ring group number | 6200 |
 
 **Response sample:**
 
