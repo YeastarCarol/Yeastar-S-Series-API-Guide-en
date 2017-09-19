@@ -15,6 +15,7 @@
     * [Query One or More Extensions](api_sample/extension/query-one-or-more-extensions.md)
     * [Configure an Individual Extension](api_sample/extension/configure-an-individual-extension.md)
   * [Trunk](api_sample/trunk.md)
+    * [Query Trunk List](api_sample/trunk/query-trunk-list.md)
   * [IVR](api_sample/ivr.md)
   * [Queues](api_sample/queues.md)
   * [Calls](api_sample/calls.md)
