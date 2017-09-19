@@ -10,7 +10,7 @@ Through this interface, an inbound call from an external number can be transferr
 
 **Request address:**
 
-[https://192.168.5.150:8088/api/v1.0.0/inbound/transfer\_queue?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/inbound/transfer_queue?token=7d20390952e15eb72b0a1df7172de65c)
+[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.0/inbound/transfer_queue?token=7d20390952e15eb72b0a1df7172de65c){version}[/inbound/transfer\_queue?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/inbound/transfer_queue?token=7d20390952e15eb72b0a1df7172de65c)
 
 **Request sample:**
 
@@ -20,7 +20,7 @@ Through this interface, an inbound call from an external number can be transferr
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
-| **&lt;inboundid&gt;** | int | The inbound ID | 1495700191.223 |
+| **&lt;inboundid&gt;** | String | The inbound ID | 1495700191.223 |
 | **&lt;queueid&gt;** | String | The queue number | 6700 |
 
 **Response sample:**
