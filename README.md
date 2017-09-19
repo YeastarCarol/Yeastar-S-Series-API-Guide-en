@@ -1,3 +1,8 @@
-# s-series_voip_pbx_api_deverloper_guide_en {#s-series-voip-pbx-api-deverloper-guide-en}
+# S-Series IPPBX API User Guide
 
-**Yeastar Information Technology Co., Ltd.**
+#### Version: v1.0
+
+#### Date: 2017.9.14
+
+
+

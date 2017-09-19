@@ -1,6 +1,6 @@
 # Summary
 
-* [s-series_voip_pbx_api_deverloper_guide_en](README.md)
+* [S-Series IPPBX API User Guide](README.md)
 * [About this Guide](about_this_guide.md)
 * [Introduction to the API](introduction_to_the_api/README.md)
   * [Interaction Method](introduction_to_the_api/interaction_method.md)
@@ -18,3 +18,4 @@
   * [System Report](api_sample/system_report.md)
   * [Call Report](api_sample/call_report.md)
 * [Appendix A: Error Code Descriptions](appendix_a_error_code_descriptions.md)
+
