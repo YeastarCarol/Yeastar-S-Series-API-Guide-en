@@ -6,7 +6,7 @@ Through this interface, an outbound call made with an external number being dial
 
 **Request address:**
 
-[https://192.168.5.150:8088/api/v1.0.1/ringgroup/dial\_outbound?token=172970ee3f5f92fe65cd6bc17663b1f7](https://192.168.5.150:8088/api/v1.0.1/ringgroup/dial_outbound?token=172970ee3f5f92fe65cd6bc17663b1f7)
+[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.1/ringgroup/dial_outbound?token=172970ee3f5f92fe65cd6bc17663b1f7){version}[/ringgroup/dial\_outbound?token=172970ee3f5f92fe65cd6bc17663b1f7](https://192.168.5.150:8088/api/v1.0.1/ringgroup/dial_outbound?token=172970ee3f5f92fe65cd6bc17663b1f7)
 
 **Request sample:**
 
@@ -16,9 +16,9 @@ Through this interface, an outbound call made with an external number being dial
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
-| **&lt; ringgroupid&gt;** | String | The ring group number | 6400 |
-| **&lt;outto&gt;** | String | The external number | 18045924562 |
-| **&lt;fromext&gt;** | String | Which extension's call permission will be applied | 1000 |
+| **&lt; ringgroupid&gt;** | Int | The ring group number | 6200 |
+| **&lt;outto&gt;** | String | The external number | 118396210850 |
+| **&lt;fromext&gt;** | String | Which extension's call permission will be applied | 1000000 |
 
 **Response sample:**
 
@@ -29,7 +29,7 @@ Through this interface, an outbound call made with an external number being dial
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
 | **&lt;status&gt;** | String | Result | Success or Failed |
-| **&lt;callid&gt;** | String | A unique identifier for the call |  |
+| **&lt;callid&gt;** | String | A unique identifier for the call | 1501145750.391 |
 
 
 
