@@ -10,7 +10,7 @@ Note: the call can be transferred whether it's a ringing call or an ongoing call
 
 **Request address:**
 
-[https://192.168.5.150:8088/api/v1.0.0/inbound/transfer\_outbound?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/inbound/transfer_outbound?token=7d20390952e15eb72b0a1df7172de65c)
+[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.0/inbound/transfer_outbound?token=7d20390952e15eb72b0a1df7172de65c){version}[/inbound/transfer\_outbound?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/inbound/transfer_outbound?token=7d20390952e15eb72b0a1df7172de65c)
 
 **Request sample:**
 
