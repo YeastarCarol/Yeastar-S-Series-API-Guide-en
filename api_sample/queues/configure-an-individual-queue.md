@@ -38,8 +38,8 @@ Through this interface, developers could configure an individual queue.
 | **\[breakoutkey\]** | String | The breakout key | Options: None, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, \*, \# |
 | **\[breakoutaction\]** | String | The breakout action | Options: Hang up, Extension, Voicemail, IVR, Ring Group, Queue, Conference, Fax to Email, Dial by Name |
 | **\[breakoutdest\]** | String | The breakout destination |  |
-| \[idannouncement\] | String | The name of the prompt that announce the agent ID. It is "None" by default. Note: When querying one or more queues, this parameter is bound to return value\(s\). | None |
-| \[satisfactionsurvey\] | String | The name of the prompt for customer satisfaction survey. If not configured, the prompt will not be played. It is "none" by default. | None |
+| **\[idannouncement\]（新增）** | String | The file name of the prompt that announces the agent ID. It is "None" by default. Note: When querying one or more queues, this parameter is bound to return value\(s\). | None |
+| **\[satisfactionsurvey\]（新增）** | String | The file name of the prompt for customer satisfaction survey. It is "None" by default. If it is not specified, the prompt will not be played. | None |
 
 **Response sample:**
 
