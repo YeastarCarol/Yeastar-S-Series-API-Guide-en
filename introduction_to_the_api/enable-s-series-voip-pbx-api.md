@@ -12,7 +12,7 @@ The following are instructions on enabling the API feature and configuring API p
 
 Note: the username and the password here will be used by the 3rd party software to establish connection with S-Series VoIP PBX through S-Series API.
 
-3\) Choose the extensions that require status monitoring. All extensions are chosen by default. Whenever the extension status changes \(for example,  the call status of extension changes from Busy to Idle\),  S-Series API will send a report of trunk status changing to the application server.
+3\) Choose the extensions that require status monitoring. All extensions are chosen by default. Whenever the extension status changes \(for example,  the call status of extension changes from Busy to Idle\), the API will send a report of trunk status changing to the application server.
 
 ![](/assets/3.png)
 
