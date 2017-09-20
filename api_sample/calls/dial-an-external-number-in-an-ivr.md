@@ -6,7 +6,7 @@ Through this interface, an external number will be dialed while in an IVR in ord
 
 2. Send the keypress report to the application server when the dialed party's keypress triggers the relevant event.
 
-Note：need to dial from an extension with route permission to and the outbound dial pattern should be matched.\(新增\)
+Note：need to dial from an extension with route permission  and the outbound dial pattern should be matched.\(新增\)
 
 **Request method:** POST
 
