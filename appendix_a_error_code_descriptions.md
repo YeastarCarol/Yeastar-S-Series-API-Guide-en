@@ -7,7 +7,7 @@
 | **10004** | The required parameter is blank |
 | **10006** | The extension does not exist |
 | **10007** | The call does not exist |
-| **10008** | The extension isn&#039;t idle |
+| **10008** | The extension isn't idle |
 | **10009** | The extension does not allow being monitored |
 | **10010** | The monitor mode does not match |
 | **10011** | The called number does not exist |
@@ -26,8 +26,8 @@
 | **10024** | The extension does not have outbound call permission |
 | **20000** | Only support json format |
 | **20001** | Only support POST request |
-| **20002** | User login failure (user locked out) |
-| **20003** | User login failure (invalid username or password) |
+| **20002** | User login failure \(user locked out\) |
+| **20003** | User login failure \(invalid username or password\) |
 | **20004** | No such Token |
 | **20005** | Token is blank |
 | **20006** | Token times out |
@@ -35,3 +35,6 @@
 | **20008** | Wrong port |
 | **20009** | Blank request |
 | **30001** | API codes error |
+
+
+
