@@ -36,21 +36,15 @@ S-Series VoIP PBX API uses username and password credentials for authentication.
 | **&lt;status&gt;** | String | Request Status | Success, Failure |
 | **&lt;token&gt;** | String | Token for interface invocation. All the succeeding requests require the token. | 1ec8bde364f8e37c0dd14f476fba114c |
 
-注：所有的API请求都需要带上登录返回的token，且该token有效时长为30分钟，30分钟内如果API和第三方应用没有任何事件交互（如：第三方应用发送API请求），则该token将被IPPBX系统清除。可通过心跳包接口延长token的有效时长，每发送一次心跳包可使token的有效时长延长30分钟。
-
-**Note: **all API requests will require the "token" returned here. The token is valid only for 30 minutes, within which, if there is no event interaction between S-Series API and the application server \(for example, the application server sends API request to S-Series VoIP PBX\), the token will be erased by the IPPBX system. The application server can prolong the validity time of the token by sending a Heartbeat packet to the IPPBX via the Heartbeat packet interface. Every time a packet is sent, the token validity time will be prolonged for 30 minutes.
+**Note: **all API requests will require the "token" returned here. The token is valid only for 30 minutes, within which, if there is no event interaction between S-Series API and the application server \(for example, the application server sends API request to the PBX\), the token will be erased by the PBX system. The application server can prolong the validity time of the token by sending a Heartbeat packet to the PBX via the Heartbeat packet interface. Every time a packet is sent, the token validity time will be prolonged for 30 minutes. \(新增\)
 
 **Possible error code:** 20003
 
 ### Heartbeat Packet {#heartbeat-packet}
 
-当连接IPPBX的第三方应用的IP地址、监听端口或者URL有变更的时候，可通过API的心跳包接口对IP, Port, URL进行更新。同时当第三方应用和API没有事件交互的时候，可利用此接口定期发送请求从而更新token的有效时长，避免token在1800秒超时后被清除，造成事件不会上报以及请求失败。
+With heartbeat packet, S-Series VoIP PBX can update IP, Port, and URL of the conntected 3rd party application server if there are any changes. In addition, when there is no event interaction between the application server and S-Series API, heartbeat packets can be sent to the IPPBX periodically to prolong the validity time of the token, so to avoid failure of report if the token was erased after 1800s.\(改\)
 
-With heartbeat packet, S-Series VoIP PBX can update IP, Port, and URL of the conntected 3rd party application server if there are any changes. In addition, when there is no event interaction between the application server and S-Series API, heartbeat packets can be sent to the IPPBX periodically to prolong the validity time of the token, so to avoid failure of report if the token was erased after 1800s.
-
-注：发送一次心跳包请求可使token的有效时长延长1800秒。
-
-**Note:** every time a heartbeat packet is sent, the validity time of the token will be prolonged for 1800s.
+**Note:** every time a heartbeat packet is sent, the validity time of the token will be prolonged for 1800s.（新增）
 
 **Request method:** POST
 
@@ -64,9 +58,9 @@ With heartbeat packet, S-Series VoIP PBX can update IP, Port, and URL of the con
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
-| **&lt;ipaddr&gt;** | String | Updated IP address of the application server | 192.168.5.150 |
-| **&lt;port&gt;** | String | Updated port number; this port will be used by the application server to monitor the report sent by API. | 0&lt;port&lt;65536 |
-| **\[url\]** | String | Updated URL of the application server |  |
+| **&lt;ipaddr&gt;（改）** | String | Updated IP address of the application server | 192.168.5.150 |
+| **&lt;port&gt;（改）** | String | Updated port number; this port will be used by the application server to monitor the report sent by API. | 0&lt;port&lt;65536 |
+| **\[url\]（改）** | String | Updated URL of the application server |  |
 
 **Response sample:**
 
