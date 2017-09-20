@@ -1,4 +1,4 @@
-# Customer Satisfaction Survey Result Sending
+# Customer Satisfaction Survey Result Sending\(表格内容有变\)
 
 Once the DTMF pressed is collected from callers, API will send the customer satisfaction survey result to the client automatically.
 
@@ -8,9 +8,11 @@ Once the DTMF pressed is collected from callers, API will send the customer sati
 
 **Reportparameters descriptions:**
 
-| Parameter Name | Type | Description | Sample |
+| **Parameter Name** | **Type** | **Description** | **Sample** |
 | :--- | :--- | :--- | :--- |
-| &lt;surveyresult&gt; | string | The result of the customer satisfaction survey. \( the DTMF key pressed by the caller\) | 1 |
+| **&lt;action&gt;** | String |  |  |
+| **&lt;surveyresult&gt;** | String | The result of the customer satisfaction survey. \( the DTMF key pressed by the caller\) | 1 |
+| **&lt;callid&gt;** | String |  |  |
 
 
 

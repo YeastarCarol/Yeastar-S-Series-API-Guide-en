@@ -10,7 +10,7 @@ If the trunk's API has Inbound Call Answering Control enabled, then when the tru
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
-| **&lt;action&gt;** | String | Inbound call notification | Invite |
+| **&lt;action&gt;** | String | Call coming in | Incoming |
 | **&lt;callid&gt;** | String | A unique identifier of the call | 1495707950.331 |
 | **&lt;inbound&gt;** | Object | Inbound call |  |
 | **&lt;trunk&gt;** | String | The trunk name | sip-142 |
