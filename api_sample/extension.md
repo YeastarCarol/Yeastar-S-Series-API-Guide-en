@@ -1,10 +1,8 @@
-# Extension
+# Extension\(新增页面\)
 
-Through this interface, developers could query extension information and change extension settings.
+Through this interface, developers could query extension information and configure extension.
 
-# 分机
-
-通过此类接口查询分机信息以及更改分机配置。
+# 
 
 ###  {#query-extension-list}
 
