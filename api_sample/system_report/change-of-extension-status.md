@@ -1,8 +1,8 @@
-### Change of Extension Status {#change-of-extension-status}
+### Change of Extension Status （新增内容及表格） {#change-of-extension-status}
 
 The PBX will send a report to the application server when the extension status changes. So the application server can sync the changes timely.
 
-**Precondition:** need to enable extension's status monitor in the "Settings-&gt;PBX-&gt;General-&gt;API" of S-Series VoIP PBX Web interface.
+**Precondition:** need to enable extension's status monitor in the "Settings-&gt;PBX-&gt;General-&gt;API" of S-Series VoIP PBX Web interface.\(新增\)
 
 **Extension Status Descriptions:**
 
@@ -29,9 +29,9 @@ The following will trigger the status to change to “unregistered”:
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
-| **&lt;action&gt;** | String | Status Change of extension | ExtensionStatus |
+| **&lt;action&gt;** | String | Status change of extension | ExtensionStatus |
 | **&lt;extension&gt;** | Int | The number of extension with status change | 1010 |
-| **&lt;status&gt;** | String | The Status of extension after change | Registered |
+| **&lt;status&gt;** | String | The status of extension after change | Registered |
 
 
 
