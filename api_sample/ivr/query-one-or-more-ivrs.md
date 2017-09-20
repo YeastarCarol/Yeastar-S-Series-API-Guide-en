@@ -35,10 +35,10 @@ Through this interface, developers could fetch detailed information like IVR num
 | **\[promptrepeat\]** | String | How many times will the prompt be repeated | 3 |
 | **\[responsetimeout\]** | Int | Response timeout in seconds. | 3 |
 | **\[digittimeout\]** | Int | Digit timeout in seconds. | 5 |
-| **\[dialext\]** | String | Allow the caller to dial extension. | On: enable  off: disable |
-| **\[dialoutboundroutes\]** | String | Allow the caller to dial through outbound routes. | On: enable  off: disable |
+| **\[dialext\]** | String | Allow the caller to dial extension. | On: enable  Off: disable |
+| **\[dialoutboundroutes\]** | String | Allow the caller to dial through outbound routes. | On: enable  Off: disable |
 | **\[selectedrouters\]** | String | The route selected |  |
-| **\[dialtocheckvoicemail\]** | String | Allow to check voicemail | On: enable  off: disable |
+| **\[dialtocheckvoicemail\]** | String | Allow to check voicemail | On: enable  Off: disable |
 
 **Possible error code:** 10012, 30001
 
