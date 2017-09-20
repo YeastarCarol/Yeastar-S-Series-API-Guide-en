@@ -6,7 +6,7 @@ Through this interface, an extension can be dialed while in an IVR in order to:
 
 2. Send the keypress report to the application server when the extension's keypress triggers the relevant event.
 
-Note: need to dial from an extension with route permission to and the outbound dial pattern should be matched.\(新增\)
+Note: need to dial from an extension with route permission and the outbound dial pattern should be matched.\(新增\)
 
 **Request method:** POST
 
