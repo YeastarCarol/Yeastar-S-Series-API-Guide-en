@@ -54,8 +54,8 @@ Through this interface, developers could fetch detailed information like queue n
 | **\[breakoutkey\]** | String | The breakout key | None |
 | **\[breakoutaction\]** | String | The breakout action |  |
 | **\[breakoutdest\]** | String | The breakout destination |  |
-| **\[idannouncement\]** | String | The name of the prompt that announce the agent ID. It is "None" by default. Note: When querying one or more queues, this parameter is bound to return value\(s\). | None |
-| **\[satisfactionsurvey\]** | String | The name of the prompt for customer satisfaction survey. If not configured, the prompt will not be played. It is "none" by default.  | None |
+| **\[idannouncement\]（新增）** | String | The file name of the prompt that announces the agent ID. It is "None" by default. Note: When querying one or more queues, this parameter is bound to return value\(s\). | None |
+| **\[satisfactionsurvey\]（新增）** | String | The file name of the prompt for customer satisfaction survey. It is "None" by default. If it is not specified, the prompt will not be played.  | None |
 
 **Possible error code:** 10013, 30001
 
