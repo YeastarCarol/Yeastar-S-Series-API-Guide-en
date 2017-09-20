@@ -1,5 +1,13 @@
 ### Change of Extension Status {#change-of-extension-status}
 
+当分机状态发生变更时，IPPBX主动向应用服务器推送变更信息。注：该事件需要在IPPBX的API界面勾选分机的状态监控。
+
+The PBX will send a report to the application server when the extension status changes. So the application server can sync the changes timely.
+
+**Precondition:** need to enable extension's status monitor in the "Settings&gt; PBX &gt; Extension &gt; API" of PBX Web Panel.
+
+**Extension Status Descriptions:**
+
 * Ringing: send a report to the application server when an extension is ringing.
 * Busy: send a report to the application server when an extension goes off-hook.
 
@@ -18,4 +26,14 @@ The following will trigger the status to change to “unregistered”:
 **Report sample:**
 
 {"action":"ExtensionStatus","extension":"1010","status":"Registered"}
+
+**Report parameters descriptions:**
+
+| **Parameter Name** | **Type** | **Description** | **Sample** |
+| --- | --- | --- | --- |
+| **&lt;action&gt;** | String | Status Change of extension  | ExtensionStatus |
+| **&lt;extension&gt;** | Int | The number of extension with status change | 1010 |
+| **&lt;status&gt;** | String | The Status of extension after change | Registered |
+
+
 

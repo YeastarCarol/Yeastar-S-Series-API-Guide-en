@@ -14,8 +14,8 @@ At present, only the trunk and extension configuration change will be reported. 
 | --- | --- | --- | --- |
 | **&lt;configchange&gt;** | String | Configuration change | N/A |
 | **&lt;type&gt;** | String | Type | Trunk, extension |
-| &lt;trunkname&gt; | String | The name of trunk with configuration change | S-142 |
-| &lt;operation&gt; | String | Operation | add, delete, update |
+| **&lt;trunkname&gt;** | String | The name of trunk with configuration change | S-142 |
+| **&lt;operation&gt;** | String | Operation | add, delete, update |
 
-**Response sample:**
+
 
