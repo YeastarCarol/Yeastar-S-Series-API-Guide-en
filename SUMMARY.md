@@ -9,7 +9,7 @@
 * [API Sample](api_sample/README.md)
   * [API Authentication](api_sample/api_authentication.md)
   * [System](api_sample/system.md)
-    * [Device Information](api_sample/system/device-information.md)
+    * [Query Device Information](api_sample/system/device-information.md)
   * [Extension](api_sample/extension.md)
     * [Query Extension List](api_sample/extension/query-extension-list.md)
     * [Query One or More Extensions](api_sample/extension/query-one-or-more-extensions.md)
@@ -60,8 +60,8 @@
     * [Play Music to an Extension](api_sample/hotel_wake-up_service/play-music-to-an-extension.md)
     * [Play Music to an External Number](api_sample/hotel_wake-up_service/play-music-to-an-external-number.md)
   * [Acquire Global Recording Files](api_sample/acquire-global-recording-files.md)
+  * [Apply All Interface](api_sample/apply-interface.md)
   * [System Report](api_sample/system_report.md)
-  * Acquire Global Recording Files
 * [Appendix A: Error Code Descriptions](appendix_a_error_code_descriptions.md)
 * [Queue Agent ID Announcement and Customer Satisfaction Survey](api_sample/hotel_wake-up_service/queue-agent-id-announcement-and-customer-satisfaction-survey.md)
 

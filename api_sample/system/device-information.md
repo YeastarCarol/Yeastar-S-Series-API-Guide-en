@@ -1,4 +1,4 @@
-# Device Information
+# Query Device Information
 
 通过此接口可查询S系列IPPBX设备的相关信息。
 
