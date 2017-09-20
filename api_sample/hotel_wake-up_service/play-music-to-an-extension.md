@@ -4,9 +4,7 @@ Through this interface, developers could play music to an extension. The workflo
 
 Note: the file name of music cannot be a pure number, nor can it include the character "+".（新增）
 
-**前提条件：**所有的提示音必须为已经上传至IPPBX的自定义提示音。
-
-**Precondition:** all custom music used must be uploaded to the PBX system Custom Prompt list beforehand.
+**Precondition:** all custom music used must be uploaded to the PBX system Custom Prompt list beforehand. （新增）
 
 **Request method:** POST \(HTTPS\)
 
