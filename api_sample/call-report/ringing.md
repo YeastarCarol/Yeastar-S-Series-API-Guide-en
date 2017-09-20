@@ -16,7 +16,7 @@ Ringing \(the called party\) and ring back \(the calling party\) coexist. Calls 
 
 {"action":"RING","callid":"1495771030.365","outbound":{"from":"1002","to":"42003","trunk":"sip-142","outboundid":"1495771030.366"},"ext":{"extid":"1002"}}
 
-**Response parameters descriptions:**
+**Report parameters descriptions:**
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |

@@ -6,7 +6,7 @@ The PBX will send a report to the application server when a call is released. In
 
 {"action":"BYE","callid":"1495706238.328","ext":{"extid":"1000"},"ext":{"extid":"1002"}}
 
-**Response parameters descriptions:**
+**Report parameters descriptions:**
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |

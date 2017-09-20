@@ -8,7 +8,7 @@ Answering call \(the called party\) and call answered \(the calling party\) coex
 
 {"action":"ANSWER","callid":"1495706238.328","ext":{"extid":"1000"},"ext":{"extid":"1002"}}
 
-**Response parameters descriptions:**
+**Report parameters descriptions:**
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
