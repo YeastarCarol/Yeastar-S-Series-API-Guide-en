@@ -1,6 +1,4 @@
-## Trunk {#trunk}
+# Trunk（新增页面）
 
-Through this interface, developers could fetch trunk information like trunk status, trunk name, and etc.
-
-查询中继状态、名称等信息。
+Through this interface, developers could fetch trunk information like trunk status, trunk name, and etc. of all trunks.
 
