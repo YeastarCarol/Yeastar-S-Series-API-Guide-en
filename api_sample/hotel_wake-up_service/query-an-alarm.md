@@ -2,7 +2,7 @@
 
 通过本接口可查询分机已经存在的闹铃的信息。
 
-Through this interface, developers could fetch basic information about the exsiting alarm.
+Through this interface, developers could fetch basic information about the exsiting alarm\(s\).
 
 **Request method:** POST
 
