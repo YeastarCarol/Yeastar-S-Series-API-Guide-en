@@ -6,7 +6,7 @@ Through this interface, developers could add alarm to extensions.
 
 说明：支持多个分机一起添加闹铃相同的闹铃，且一次只能添加一个闹铃，如一次添加多个则只有第一个生效。如需多个分机添加同一个闹铃，则分机之间使用逗号隔开。
 
-Note: the same alarm can be added to multiple extensions; separate the extension number with comma. Only one alarm can be added for one time. If multiple alarms are added for a time, only the first alarm added will take effect.
+Note: the same alarm can be added to multiple extensions; separate the extension number with comma. Only one alarm can be added for one time. If multiple alarms are added for one time, only the first alarm added will take effect.
 
 For example:
 
@@ -29,7 +29,7 @@ For example:
 | **&lt;extid&gt;** | Int | The extension number | 1000 |
 | **&lt;wakeup&gt;** | Object | Object |  |
 | **&lt;time&gt;** | String | Time | 11:22 |
-| **&lt;type&gt;** | String | Type, when the &lt;type&gt; is "onetime", the alarm will be deleted after the alarm has repeated for the designated times. | Options: onetime, everyday, custom |
+| **&lt;type&gt;** | String | Type. When the &lt;type&gt; is "onetime", the alarm will be deleted after it has been repeated for the designated repeat times. | Options: onetime, everyday, custom |
 | **\[weekdays\]** | String | The options available when the above &lt;type&gt; is "custom" | Options:1, 2, 3, 4, 5, 6, 0      1 to 6 correspond to Monday to Saturday, 0 corresponds to Sunday |
 | **\[repeats\]** | String | How many times will the alarm be repeated | Options: 1, 2, 3 |
 | **\[Repeatinterval\]** | String | The interval in minutes between each repeat | 5 |
