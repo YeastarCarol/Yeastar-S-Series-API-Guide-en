@@ -1,10 +1,12 @@
-### Dial an External Number in an IVR {#dial-an-external-number-in-an-ivr}
+### Dial an External Number in an IVR（新增Note） {#dial-an-external-number-in-an-ivr}
 
 Through this interface, an external number will be dialed while in an IVR in order to:
 
 1. Play audio to the dialed party when the call is established;
 
 2. Send the keypress report to the application server when the dialed party's keypress triggers the relevant event.
+
+Note：need to dial from an extension with route permission to and the outbound dial pattern should be matched.\(新增\)
 
 **Request method:** POST
 
