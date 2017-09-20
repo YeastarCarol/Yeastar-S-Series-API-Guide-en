@@ -1,18 +1,14 @@
-# About this Guide \(新增支持型号\)
+# About this Guide \(新增支持型号，软件版本\)
 
 This guide describes concepts that you need to understand about S-Series VoIP PBX API and how to use the API to connect S-Series VoIP PBX with 3rd party software.
 
-**支持型号**
-
-S50、S100、S300
-
-#### Supported Products:
+#### Supported Products: 
 
 S500, S100, S300
 
 #### **Software Version**
 
-S-Series VoIP PBX API feature currently is only available in beta version. Please contact Yeastar to get the beta package.
+S-Series VoIP PBX API feature currently is only available for firmware version 30.5.0.22 and above.
 
 #### **Audience**
 
