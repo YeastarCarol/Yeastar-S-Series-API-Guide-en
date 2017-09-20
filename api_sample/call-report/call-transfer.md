@@ -6,9 +6,7 @@ The report only includes operations performed by the extensions, for example, di
 
 **Report sample:**
 
-{"action":"Tranfer","callid":"1505291815.120","ext":
-
-{"extid":"1000"},"inbound":{"from":"102","to":"1000","trunk":"Apple\_test","inboundid":"1505291815.120"}}
+{"action":"Tranfer","callid":"1505291815.120","ext":{"extid":"1000"},"inbound":{"from":"102","to":"1000","trunk":"Apple\_test","inboundid":"1505291815.120"}}
 
 **Report parameters descriptions:**
 
