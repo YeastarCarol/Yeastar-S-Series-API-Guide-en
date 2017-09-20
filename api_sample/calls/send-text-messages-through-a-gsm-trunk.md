@@ -32,7 +32,7 @@ Note: A text message have a maximum length of 2000 characters and no emoji shoul
 
 Signal Correctly Sent: {"status":"Success","smsid":"18396210850-1502874159"}
 
-Message Successfully Sent: {"status":"Success","smsid":"18396210850-1502874159"}
+Message Successfully Sent: {"status":"Success","smsid":"18396210850-1502874445"}
 
 Message Sending Failed:
 
