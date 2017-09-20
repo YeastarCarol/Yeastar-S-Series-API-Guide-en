@@ -1,8 +1,6 @@
-# Ring Back\(新增表格\)
+# Ring Back\(新增内容及表格\)。
 
-当分机响铃时，IPPBX向应用服务器推送该事件报告。注：该类事件只有在使用API接口进行拨号的时候才会上报，用户使用话机拨打时，此类事件不会上报。
-
-The PBX will send a report to the application server when the called party \(extension/inbound call\) rings back the calling party. But only when then the ring back is triggered by a dial using the API, the report will be sent, namely, if a ring back is triggered by a dial made from an extension, the report will not be sent.
+The PBX will send a report to the application server when the called party \(extension/inbound call\) rings back the calling party. But only when then the ring back is triggered by a dial using the API, the report will be sent, namely, if a ring back is triggered by a dial made from an extension, the report will not be sent.（新增）
 
 Ringing \(the called party\) and ring back \(the calling party\) coexist. Calls with external numbers and internal calls will both be reported. In the report, the party who triggers the call will appear first.
 
