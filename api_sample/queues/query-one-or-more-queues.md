@@ -1,4 +1,4 @@
-# Query One or More Queues
+# Query One or More Queues\(表格内容有改\)
 
 Through this interface, developers could fetch detailed information like queue number, queue name, static agents, dynamic agents, etc. of one or more queues. When there are multiple queries, separate the parameters with comma.
 
@@ -55,7 +55,7 @@ Through this interface, developers could fetch detailed information like queue n
 | **\[breakoutaction\]** | String | The breakout action |  |
 | **\[breakoutdest\]** | String | The breakout destination |  |
 | **\[idannouncement\]（新增）** | String | The file name of the prompt that announces the agent ID. It is "None" by default. Note: When querying one or more queues, this parameter is bound to return value\(s\). | None |
-| **\[satisfactionsurvey\]（新增）** | String | The file name of the prompt for customer satisfaction survey. It is "None" by default. If it is not specified, the prompt will not be played.  | None |
+| **\[satisfactionsurvey\]（新增）** | String | The file name of the prompt for customer satisfaction survey. It is "None" by default. If it is not specified, the prompt will not be played. | None |
 
 **Possible error code:** 10013, 30001
 
