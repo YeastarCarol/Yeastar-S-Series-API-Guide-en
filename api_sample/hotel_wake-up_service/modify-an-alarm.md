@@ -1,8 +1,6 @@
-### Modify an Alarm {#modify-an-alarm}
+### Modify an Alarm（新增内容及表格） {#modify-an-alarm}
 
-通过本接口可对分机已存在的闹铃进行修改。
-
-Through this interface, developers could modify extension's alarm.
+Through this interface, developers could modify extension's alarm. （新增）
 
 Note: can only modify one extension's alarm at a time.
 
