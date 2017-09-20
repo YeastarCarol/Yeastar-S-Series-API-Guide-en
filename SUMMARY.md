@@ -6,7 +6,6 @@
   * [Interaction Method](introduction_to_the_api/interaction_method.md)
   * [S-Series VoIP PBX API and AMI](introduction_to_the_api/s-series_voip_pbx_api_and_ami.md)
   * [Enable S-Series VoIP PBX API](introduction_to_the_api/enable-s-series-voip-pbx-api.md)
-* [Enable S-Series VoIP PBX API](enable_s-series_voip_pbx_api.md)
 * [API Sample](api_sample/README.md)
   * [API Authentication](api_sample/api_authentication.md)
   * [System](api_sample/system.md)
