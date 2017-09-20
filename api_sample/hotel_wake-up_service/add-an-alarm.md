@@ -6,7 +6,7 @@ Through this interface, developers could add alarm to extensions.
 
 说明：支持多个分机一起添加闹铃相同的闹铃，且一次只能添加一个闹铃，如一次添加多个则只有第一个生效。如需多个分机添加同一个闹铃，则分机之间使用逗号隔开。
 
-Note: the same alarm can be added to multiple extensions; separate the extension number with comma. Only one alarm can be added for one time. If multiple alarms are added for one time, only the first alarm added will take effect.
+Note: the same alarm can be added to multiple extensions; separate the extension number with comma. Only one alarm can be added at a time. If multiple alarms are added at a time, only the first alarm added will take effect.
 
 For example:
 
