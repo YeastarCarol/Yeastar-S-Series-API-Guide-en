@@ -5,6 +5,7 @@
 * [Introduction to the API](introduction_to_the_api/README.md)
   * [Interaction Method](introduction_to_the_api/interaction_method.md)
   * [S-Series VoIP PBX API and AMI](introduction_to_the_api/s-series_voip_pbx_api_and_ami.md)
+  * [Enable S-Series VoIP PBX API](introduction_to_the_api/enable-s-series-voip-pbx-api.md)
 * [Enable S-Series VoIP PBX API](enable_s-series_voip_pbx_api.md)
 * [API Sample](api_sample/README.md)
   * [API Authentication](api_sample/api_authentication.md)
@@ -79,6 +80,6 @@
     * [Inbound Call](api_sample/call-report/call.md)
     * [Prompt Play End](api_sample/call-report/prompt-play-end.md)
     * [Customer Satisfaction Survey Result Sending](api_sample/call-report/customer-satisfaction-survey.md)
-* [Appendix A: Error Code Descriptions](appendix_a_error_code_descriptions.md)
 * [API Format and Version Update Record](a.md)
+* [Appendix A: Error Code Descriptions](appendix_a_error_code_descriptions.md)
 

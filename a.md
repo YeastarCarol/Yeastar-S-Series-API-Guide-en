@@ -21,7 +21,7 @@ When sending a API request, the request address must include the API version. Al
 
 #### Version Update:
 
-| **Update Time** | API Version | **Firmware Version** | **Interface Description Version** |
+| **Update Time** | API Version | **Firmware Version** | User Guide Version |
 | :--- | :--- | :--- | :--- |
 | 2017.9.14 | v1.0.1 | 30.5.0.24 | v1.0 |
 
