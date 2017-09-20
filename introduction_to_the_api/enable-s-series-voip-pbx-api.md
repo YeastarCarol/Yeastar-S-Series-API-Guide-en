@@ -32,7 +32,7 @@ If enabled, all inbound calls to the trunk will not go to the destination define
 
 **Status Monitoring **
 
-If enabled, whenever there is a change in trunk status \(for example, the trunk status changes from "Registered" to "Unregistered"\), S-Series API will send a report of trunk status changing to the application server.
+If enabled, whenever there is a change in trunk status \(for example, the trunk status changes from "Registered" to "Unregistered"\), the API will send a report of trunk status changing to the application server.
 
 ![](/assets/4.png)
 
