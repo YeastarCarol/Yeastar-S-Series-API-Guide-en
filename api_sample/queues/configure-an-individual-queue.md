@@ -1,4 +1,4 @@
-### Configure an Individual Queue {#configure-an-individual-queue}
+### Configure an Individual Queue \(表格内容有改\) {#configure-an-individual-queue}
 
 Through this interface, developers could configure an individual queue.
 
