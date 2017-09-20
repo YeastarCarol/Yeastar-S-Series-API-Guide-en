@@ -23,7 +23,7 @@ No parameter. Only need to send the request.
 | **&lt;devicename&gt;** | String | The device name | Yeastar S100 |
 | **&lt;sn&gt;** | String | Serial Number | 369364835218 |
 | **&lt;hardwarever&gt;** | String | The hardware version | V1.30 0000-0000 |
-| **&lt;firmwarever&gt;** | String | The firmware version | 30.5.0.109 |
+| **&lt;firmwarever&gt;** | String | The firmware version | 30.5.0.19 |
 | **&lt;systemtime&gt;** | String | The system time | 2017-05-24 23:25:20 UTC-8 |
 | **&lt;uptime&gt;** | String | Up time | 3:25:04 AM |
 | **&lt;extensionstatus&gt;** | String | Current registered extension number/extension number in total | 7/100 |
