@@ -1,6 +1,6 @@
 # 应用（Apply）**接口**
 
-# **Apply All Interface**
+# "**Apply All" Interface**
 
 使用API配置分机或者IVR等时，配置成功后会自动应用。为避免使用API配置时频繁应用出现应用不生效情况，用户可在统一配置完毕后，调用此接口统一应用一次。
 

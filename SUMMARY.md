@@ -60,8 +60,11 @@
     * [Play Music to an Extension](api_sample/hotel_wake-up_service/play-music-to-an-extension.md)
     * [Play Music to an External Number](api_sample/hotel_wake-up_service/play-music-to-an-external-number.md)
   * [Acquire Global Recording Files](api_sample/acquire-global-recording-files.md)
-  * [Apply All Interface](api_sample/apply-interface.md)
+  * ["Apply All" Interface](api_sample/apply-interface.md)
   * [System Report](api_sample/system_report.md)
+    * [System Startup](api_sample/system_report/system-startup.md)
+    * [Change of System Configuration](api_sample/system_report/change-of-system-configuration.md)
+    * [Change of Extension Status](api_sample/system_report/change-of-extension-status.md)
 * [Appendix A: Error Code Descriptions](appendix_a_error_code_descriptions.md)
 * [Queue Agent ID Announcement and Customer Satisfaction Survey](api_sample/hotel_wake-up_service/queue-agent-id-announcement-and-customer-satisfaction-survey.md)
 
