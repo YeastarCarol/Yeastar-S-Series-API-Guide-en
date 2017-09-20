@@ -1,4 +1,4 @@
-# Configure an Individual Extension
+# Configure an Individual Extension\(表格内容有改\)
 
 Through this interface, developers could configure extension number, name, concurrent registrations, email address, mobility extension, etc. of an individual extension.
 
