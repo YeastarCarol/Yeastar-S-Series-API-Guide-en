@@ -65,6 +65,21 @@
     * [System Startup](api_sample/system_report/system-startup.md)
     * [Change of System Configuration](api_sample/system_report/change-of-system-configuration.md)
     * [Change of Extension Status](api_sample/system_report/change-of-extension-status.md)
+  * [Call Report](api_sample/call-report.md)
+    * Ringing
+    * Ring Back
+    * Answer a Call
+    * Call Answered
+    * Call Released
+    * Call Transfer
+    * Call Failure
+    * Inbound Call Request
+    * Inbound Call
+    * Keypress
+    * CDR
+    * Download a Call Recording file
+    * Prompt Play End
+    * Customer Satisfaction Survey
 * [Appendix A: Error Code Descriptions](appendix_a_error_code_descriptions.md)
 * [Queue Agent ID Announcement and Customer Satisfaction Survey](api_sample/hotel_wake-up_service/queue-agent-id-announcement-and-customer-satisfaction-survey.md)
 
