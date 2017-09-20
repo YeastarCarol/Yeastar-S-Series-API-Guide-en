@@ -1,4 +1,4 @@
-### Query Inbound Calls {#query-inbound-calls}
+### Query Inbound Calls（表格内容有改） {#query-inbound-calls}
 
 Through this interface, developers could fetch detailed information like caller, callee, call status, etc. of all inbound calls coming from the trunks of the PBX.
 
@@ -35,7 +35,7 @@ Through this interface, developers could fetch detailed information like caller,
 | **&lt;to&gt;** | String | The callee's number | 1002 |
 | &lt;**callee&gt;** | Object | The called party of an inbound call, could be an extension, IVR, or an outbound ID. | 1002 |
 | **&lt;trunk&gt;** | String | The name of the trunk that passes the inbound call | SIP\_142 |
-| &lt;**status&gt;** | String | Call status | Talking: talking on the call   Progress: Progressing the call  Wait: call waiting |
+| &lt;**status&gt;\(新增\)** | String | Call status | Talking: talking on the call   Progress: Progressing the call  Wait: call waiting |
 
 **Possible error code:** 30001
 
