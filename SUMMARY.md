@@ -66,20 +66,20 @@
     * [Change of System Configuration](api_sample/system_report/change-of-system-configuration.md)
     * [Change of Extension Status](api_sample/system_report/change-of-extension-status.md)
   * [Call Report](api_sample/call-report.md)
-    * Ringing
-    * Ring Back
-    * Answer a Call
-    * Call Answered
-    * Call Released
-    * Call Transfer
-    * Call Failure
-    * Inbound Call Request
-    * Inbound Call
-    * Keypress
-    * CDR
-    * Download a Call Recording file
-    * Prompt Play End
-    * Customer Satisfaction Survey
+    * [Ringing](api_sample/call-report/ringing.md)
+    * [Ring Back](api_sample/call-report/ring-back.md)
+    * [Answer a Call](api_sample/call-report/answer-a-call.md)
+    * [Call Answered](api_sample/call-report/call-answered.md)
+    * [Call Released](api_sample/call-report/call-released.md)
+    * [Call Transfer](api_sample/call-report/call-transfer.md)
+    * [Call Failure](api_sample/call-report/call-failure.md)
+    * [Inbound Call Request](api_sample/call-report/inbound-call-request.md)
+    * [Inbound Call](api_sample/call-report/inbound-call.md)
+    * [Keypress](api_sample/call-report/keypress.md)
+    * [CDR](api_sample/call-report/cdr.md)
+    * [Download a Call Recording file](api_sample/call-report/download-a-call-recording-file.md)
+    * [Prompt Play End](api_sample/call-report/prompt-play-end.md)
+    * [Customer Satisfaction Survey](api_sample/call-report/customer-satisfaction-survey.md)
 * [Appendix A: Error Code Descriptions](appendix_a_error_code_descriptions.md)
 * [Queue Agent ID Announcement and Customer Satisfaction Survey](api_sample/hotel_wake-up_service/queue-agent-id-announcement-and-customer-satisfaction-survey.md)
 
