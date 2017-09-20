@@ -1,12 +1,10 @@
-## API Authentication {#api-authentication}
+## API Authentication（新增2个Note，表格内容，） {#api-authentication}
 
 ### Login {#login}
 
 S-Series VoIP PBX API uses username and password credentials for authentication. The application server must provide the correct username and password for API to process the request.
 
-注：密码需用户自己使用MD5加密之后的32位小写密码进行验证。如果密码连续错误五次，则该第三方应用的IP将会被锁10分钟。
-
-**Note: **you need to encrypt the password with MD5 first for authentication. After encryption, the password should consist of 32 lowercase letters. If you enter the wrong password consecutively for 5 times, the IP address of the application server will be blocked for 10 minutes.
+**Note: **you need to encrypt the password with MD5 first for authentication. After encryption, the password should consist of 32 lowercase letters. If you enter the wrong password consecutively for 5 times, the IP address of the application server will be blocked for 10 minutes.（新增）
 
 **Request Method:** POST
 
@@ -20,7 +18,7 @@ S-Series VoIP PBX API uses username and password credentials for authentication.
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
-| **&lt;username&gt;** | String | The API username configured in the IPPBX  Programming Interface | api |
+| **&lt;username&gt;（改）** | String | The API username configured in the "Settings-&gt;PBX-&gt;General-&gt;API" of S-Series VoIP PBX Web interface. | api |
 | **&lt;password&gt;** | String | The API password configured in the IPPBX Programming Interface | Password composed of 32 lowercase letters with MD5 encrypted |
 | **&lt;port&gt;** | String | The port number, this port will be used by the application server to monitor the report sent by API. | 0&lt;port&lt;65536 |
 | **\[url\]** | String | URL of the application server. This URL is used to specify the sending path of the event report to the application server. If the parameter is not configured, the event report will be sent to the application sever by default. |  |
