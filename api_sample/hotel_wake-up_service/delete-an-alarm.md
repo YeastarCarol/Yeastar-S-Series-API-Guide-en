@@ -1,8 +1,6 @@
 ### Delete an Alarm {#delete-an-alarm}
 
-通过本接口可删除某个分机存在的闹铃。
-
-Through this interface, developers could delete alarm\(s\) for specific extension.
+Through this interface, developers could delete alarm\(s\) for specific extension.（新增）
 
 Note: can only operate on one extension's alarm at a time.
 

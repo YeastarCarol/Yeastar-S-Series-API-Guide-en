@@ -1,4 +1,4 @@
-### Modify an Alarm（新增内容及表格） {#modify-an-alarm}
+### Modify an Alarm（新增内容） {#modify-an-alarm}
 
 Through this interface, developers could modify extension's alarm. （新增）
 
