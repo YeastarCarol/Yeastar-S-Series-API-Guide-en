@@ -1,4 +1,4 @@
-### Change of System Configuration {#change-of-system-configuration}
+### Change of System Configuration（新增表格） {#change-of-system-configuration}
 
 The PBX will send a report to the application server when the PBX’s configuration changes. So the application server can sync the changes timely.
 
