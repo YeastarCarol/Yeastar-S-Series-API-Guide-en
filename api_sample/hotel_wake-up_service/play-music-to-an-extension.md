@@ -4,7 +4,7 @@
 
 Through this interface, developers could play music to an extension. The workflow is as follows: the PBX system dials a specific extension number and after the extension rings and the call gets picked up, the music will be played automatically. Multiple pieces of music can be played consecutively as if it were one; separate the file names of different pieces of music with "+" in the request.
 
-Note: the file name of music cannot be a pure number, nor can it  include the character "+". 
+Note: the file name of music cannot be a pure number, nor can it include the character "+".
 
 **前提条件：**所有的提示音必须为已经上传至IPPBX的自定义提示音。
 
