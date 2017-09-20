@@ -1,8 +1,6 @@
 # Query Device Information
 
-通过此接口可查询S系列IPPBX设备的相关信息。
-
-Through this interface, developers could fetch S-Series VoIP PBX device information.
+Through this interface, developers could fetch S-Series VoIP PBX device information. \(新增\)
 
 **Request method: **POST
 
@@ -20,15 +18,15 @@ No parameter. Only need to send the request.
 
 **Response parameters descriptions:**
 
-| Parameter Name | Type | Description | Sample |
+| **Parameter Name** | **Type** | **Description** | **Sample** |
 | :--- | :--- | :--- | :--- |
-| &lt;devicename&gt; | string | The device name | Yeastar S100 |
-| &lt;sn&gt; | string | Serial Number | 369364835218 |
-| &lt;hardwarever&gt; | string | The hardware version | V1.30 0000-0000 |
-| &lt;firmwarever&gt; | string | The firmware version | 30.5.0.109 |
-| &lt;systemtime&gt; | string | The system time | 2017-05-24 23:25:20 UTC-8 |
-| &lt;uptime&gt; | string | Up time | 3:25:04 AM |
-| &lt;extensionstatus&gt; | string | Current registered extension number/extension number in total | 7/100 |
+| **&lt;devicename&gt;** | String | The device name | Yeastar S100 |
+| **&lt;sn&gt;** | String | Serial Number | 369364835218 |
+| **&lt;hardwarever&gt;** | String | The hardware version | V1.30 0000-0000 |
+| **&lt;firmwarever&gt;** | String | The firmware version | 30.5.0.109 |
+| **&lt;systemtime&gt;** | String | The system time | 2017-05-24 23:25:20 UTC-8 |
+| **&lt;uptime&gt;** | String | Up time | 3:25:04 AM |
+| **&lt;extensionstatus&gt;** | String | Current registered extension number/extension number in total | 7/100 |
 
 **Possible error code: **30001
 
