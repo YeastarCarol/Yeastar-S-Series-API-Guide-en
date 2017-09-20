@@ -1,10 +1,8 @@
-### Play Music to an Extension {#play-music-to-an-extension}
+### Play Music to an Extension（新增内容） {#play-music-to-an-extension}
 
-通过本接口可给分机播放提示音，IPPBX拨打分机，分机响铃接起后，听到提示音。支持多段提示音拼接播放。请求时多段提示音用‘+’号连接。注：该提示音文件名不能为纯数字，也不能有‘+’号。
+Through this interface, developers could play music to an extension. The workflow is as follows: the PBX system dials a specific extension number and after the extension rings and the call gets picked up, the music will be played automatically. Multiple pieces of music can be played consecutively as if it were one; separate the file names of different pieces of music with "+" in the request.（新增）
 
-Through this interface, developers could play music to an extension. The workflow is as follows: the PBX system dials a specific extension number and after the extension rings and the call gets picked up, the music will be played automatically. Multiple pieces of music can be played consecutively as if it were one; separate the file names of different pieces of music with "+" in the request.
-
-Note: the file name of music cannot be a pure number, nor can it include the character "+".
+Note: the file name of music cannot be a pure number, nor can it include the character "+".（新增）
 
 **前提条件：**所有的提示音必须为已经上传至IPPBX的自定义提示音。
 
