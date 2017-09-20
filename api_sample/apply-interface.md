@@ -1,10 +1,6 @@
-# 应用（Apply）**接口**
+# "**Apply All" Interface（新增页面）**
 
-# "**Apply All" Interface**
-
-使用API配置分机或者IVR等时，配置成功后会自动应用。为避免使用API配置时频繁应用出现应用不生效情况，用户可在统一配置完毕后，调用此接口统一应用一次。
-
-In general, when developers do some system or extension configurations mentioned in this guide, like configuring an extension or IVR, using the S-Series API, the new settings will be applied automatically after the corresponding requests succeed. In order to avoid some exception that configuration using API failed to be applied resulted by the high frequency of system automatic apply, developers can invocate this interface to apply all settings after all operations are done.
+In general, when developers do some system or extension configurations mentioned in this guide, like configuring an extension or IVR, using the S-Series API, the new settings will be applied automatically after the corresponding requests succeed. In order to avoid some exception that configuration made through API failed to be applied because of the high frequency of system automatic apply, developers can invocate this interface to apply all settings after all operations are done.
 
 **Request method:** POST
 
