@@ -6,7 +6,7 @@ Through this interface, the PBX will dial two external numbers consecutively, an
 
 Dial the calling party's number first. The call is answered. Then dial the called party's number. The call is answered. The two parties are therefore connected.
 
-Conditions
+**Conditions**
 
 1. The calls will rely on an extension's outbound call permission.
 
