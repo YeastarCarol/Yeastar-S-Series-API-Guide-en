@@ -1,4 +1,4 @@
-# Configure an Individual IVR
+# Configure an Individual IVR（表格内容有更改）
 
 Through this interface, developers could configure IVR number, IVR name, etc. of an IVR.
 
@@ -18,12 +18,12 @@ Through this interface, developers could configure IVR number, IVR name, etc. of
 | --- | --- | --- | --- |
 | **&lt;ivrid&gt;** | String | A unique identifier of the configured IVR \(IVR number\) | 6202 |
 | **&lt;ivrnumber&gt;** | String | Modified IVR number | 6204 |
-| **&lt;ivrname&gt;** | String | The IVR name | 6202, !$\(\)\/\#;,\"=&lt;&gt;&'\`^%@{}\| are invalid for IVR name. Neither is space character valid. Maximum length is 31. Cannot be blank. |
+| **&lt;ivrname&gt;\(改\)** | String | The IVR name | 6202, !$\(\)\/\#;,\"=&lt;&gt;&'\`^%@{}\| are invalid for IVR name. Neither is space character valid. Maximum length is 31. Cannot be blank. |
 | **\[promptrepeat\]** | String | How many times will the prompt be repeated | A range from 1 to 5 |
 | **\[responsetimeout\]** | Int | Response timeout in seconds. | A range from 1 to 10 |
 | **\[digittimeout\]** | Int | Digit timeout in seconds. | A range from 1 to 10 |
-| **\[dialext\]** | String | Allow the caller to dial extension. | On: enable  off: disable |
-| **\[dialtocheckvoicemail\]** | String | Allow to check voicemail | On: enable  off: disable |
+| **\[dialext\]** | String | Allow the caller to dial extension. | On: enable  Off: disable |
+| **\[dialtocheckvoicemail\]** | String | Allow to check voicemail | On: enable  oOff: disable |
 
 **Response sample:**
 
