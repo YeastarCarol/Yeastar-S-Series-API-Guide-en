@@ -1,6 +1,6 @@
-# Call Report
+# Call Report \(新增页面\)
 
-The PBX will send call report to the application server automatically when 
+The PBX will send call report to the application server automatically. Call event like call transfer, call failure, call released, and etc. will be reported.
 
-S系列IPPBX主动向第三方应用上报通话转移等事件。
+
 
