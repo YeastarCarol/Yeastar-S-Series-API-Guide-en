@@ -1,4 +1,4 @@
-## S-Series VoIP PBX API and AMI \(新增图片\) {#s-series-voip-pbx-api-and-ami}
+## S-Series VoIP PBX API and AMI {#s-series-voip-pbx-api-and-ami}
 
 ![](/assets/import3.png)
 
