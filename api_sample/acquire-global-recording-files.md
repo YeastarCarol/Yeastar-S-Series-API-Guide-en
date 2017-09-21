@@ -1,4 +1,4 @@
-### Acquire Global Recording files（新增内容） {#acquire-global-recording-files}
+# Acquire Global Recording files（新增内容）
 
 Through this interface, global recording files of a IPPBX can be acquired.
 

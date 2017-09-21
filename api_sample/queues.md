@@ -1,4 +1,4 @@
-## Queues （新增页面） {#queues}
+# Queues （新增页面）
 
 Through this interface, developers could query one or more queues and configure an individual queue.
 
