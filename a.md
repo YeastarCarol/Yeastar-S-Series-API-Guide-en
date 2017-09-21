@@ -2,18 +2,18 @@
 
 #### **API Format：**
 
-| **Symbol** | **Description** |
-| :--- | :--- |
-| **&lt;&gt;** | Required parameter. If it's a request, the parameter is required for the request. If it's a response, the parameter is required for the response. |
-| **&lt;X &#124 Y &#124 Z&gt;** | Required parameter. The vertial bar means "or". |
-| **\[\]** | Optional parameter. |
-| **\[X\|Y\|Z\]** | Optional parameter. The vertical bar means "or". |
+|  | **Symbol** | **Description** |
+| :--- | :--- | :--- |
+|  | **&lt;&gt;** | Required parameter. If it's a request, the parameter is required for the request. If it's a response, the parameter is required for the response. |
+| \*\*&lt;X Y | Z&gt;\*\* | Requicred parameter. The vertical bar means "or". |
+|  | **\[\]** | Optional parameter. |
+|  | **\[X\|Y\|Z\]** | Optional parameter. The vertical bar means "or". |
 
 #### 
 
 #### API Version Description：
 
-When sending a API request, the request address must include the API version. All request samples in this guide use {version} to represent the API version.
+When sending an API request, the request address must include the API version. All request samples in this guide use {version} to represent the API version.
 
 #### 
 
