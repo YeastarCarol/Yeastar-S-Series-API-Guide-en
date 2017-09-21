@@ -1,4 +1,4 @@
-# Configure an Individual Extension\(表格内容有改\)
+# Configure an Individual Extension
 
 Through this interface, developers could configure extension number, name, concurrent registrations, email address, mobility extension, etc. of an individual extension.
 
@@ -16,7 +16,7 @@ Through this interface, developers could configure extension number, name, concu
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | :--- | :--- | :--- | :--- |
-| **&lt;extid&gt;\(改\)** | Int | The extension number of the extension to be configured | 1001 |
+| **&lt;extid&gt;** | Int | The extension number of the extension to be configured | 1001 |
 | **\[extnumber\]** | Int | Modified extension number | 1000 |
 | **\[username\]** | String | The user's name | Letters and digits, maximum length 31. Could be blank. |
 | **\[callerid\]** | String | The extension's Caller ID | Letters and digits, maximum length 31. Could be blank. |
