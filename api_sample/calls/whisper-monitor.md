@@ -1,4 +1,4 @@
-### Whisper Monitor（新增note） {#whisper-monitor}
+### Whisper Monitor {#whisper-monitor}
 
 Through this interface, an extension can monitor another extension's call in Whisper mode. As a result, the monitor and the monitored extension can talk to each other, but the other party in the call can talk to the monitor.
 
@@ -10,7 +10,7 @@ Through this interface, an extension can monitor another extension's call in Whi
 
 3. If the operation is successful, extension A will auto answer and start monitoring the extension B's conversation.
 
-Note: some IP phone modols or softphones may not support auto answer. In this case, IP phones or softphones will ring first, and users need to pick up the call manually to start monitoring. （新增）
+Note: some IP phone models or softphones may not support auto answer. In this case, IP phones or softphones will ring first, and users need to pick up the call manually to start monitoring.
 
 **Conditions**
 
