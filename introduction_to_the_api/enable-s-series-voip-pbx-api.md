@@ -24,7 +24,7 @@ If enabled, all inbound calls to the trunk will be handled by the API client fir
 
 Answer: if the call is answered,  it will be directed to the destination defined in inbound route.
 
-Decline: if the call is declined, it will be hung up without reaching out to the PBX, and the call will not be recorded on the IPPBX Call Logs.
+Decline: if the call is declined, it will be hung up without reaching out to the PBX, and the call will not be recorded on the PBX Call Logs.
 
 **Control Inbound Call Destination**
 
