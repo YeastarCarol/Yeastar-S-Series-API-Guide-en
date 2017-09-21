@@ -1,6 +1,6 @@
 # Query Device Information
 
-Through this interface, developers could fetch S-Series VoIP PBX device information. \(新增\)
+Through this interface, developers could fetch S-Series VoIP PBX device information.
 
 **Request method: **POST
 

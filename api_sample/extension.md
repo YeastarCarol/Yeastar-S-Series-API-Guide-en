@@ -1,4 +1,4 @@
-# Extension\(新增页面\)
+# Extension
 
 Through this interface, developers could query extension information and configure extension.
 
