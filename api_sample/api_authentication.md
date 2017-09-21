@@ -1,4 +1,4 @@
-## API Authentication（新增2个Note，表格内容，） {#api-authentication}
+## API Authentication {#api-authentication}
 
 ### Login {#login}
 
