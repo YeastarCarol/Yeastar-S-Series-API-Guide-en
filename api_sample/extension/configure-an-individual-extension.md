@@ -21,7 +21,7 @@ Through this interface, developers could configure extension number, name, concu
 | **\[username\]** | String | The user's name | Letters and digits, maximum length 31. Could be blank. |
 | **\[callerid\]** | String | The extension's Caller ID | Letters and digits, maximum length 31. Could be blank. |
 | **\[registername\]** | String | The registration name | Letters and digits, maximum length 31. Cannot be blank. |
-| **\[registerpassword\]** | String | The registration password | ;&\''\'&lt;&gt;\ {% raw %} | {% endraw %} are invalid for password. Neither is space valid. Maximum length is 31. Cannot be blank. |
+| **\[registerpassword\]** | String | {% raw %} The registration password | ;&\''\'&lt;&gt;\| {% endraw %} are invalid for password. Neither is space valid. Maximum length is 31. Cannot be blank. |
 | **\[maxregistrations\]** | String | Allowed maximum concurrent registrations | A range from 1 to 5 |
 | **\[loginpassword\]** | String | The login password |;&"'are invalid for password. Neither is space valid. Length from 6 to 63. |
 | **\[email\]** | String | The Email address | apple@yeastar.com |
