@@ -24,8 +24,8 @@
 | **10022** | The alarm already exists |
 | **10023** | The audio file does not exist |
 | **10024** | The extension does not have outbound call permission |
-| **10025（新增 ）** | apply太过频繁 |
-| **10027（新增）** | GSM模块正在使用或没有空闲的模块 |
+| **10025（新增 ）** | High frequency of using system automatic apply for new configuration  |
+| **10027（新增）** | The GSM module is in use or there is not idle GSM Module  |
 | **20000** | Only support json format |
 | **20001** | Only support POST request |
 | **20002** | User login failure \(user locked out\) |
@@ -36,11 +36,11 @@
 | **20007** | Blank data |
 | **20008** | Wrong port |
 | **20009** | Blank request |
-| **20010（新增）** |  |
-| **20011（新增）** |  |
-| **20012（新增）** |  |
-| **20013（新增）** |  |
-| **20014（新增）** |  |
+| **20010（新增）** | Failed to send request to apisrv for processing |
+| **20011（新增）** | HeartBeat Configuration request failure |
+| **20012（新增）** | The recording file does not exist |
+| **20013（新增）** | Wrong captcha |
+| **20014（新增）** | The recording file has been deleted |
 | **30001** | API codes error |
 
 
