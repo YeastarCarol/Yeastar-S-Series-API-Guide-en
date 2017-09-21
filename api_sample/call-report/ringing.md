@@ -20,7 +20,7 @@ Ringing \(the called party\) and ring back \(the calling party\) coexist. Calls 
 | --- | --- | --- | --- |
 | **&lt;action&gt;** | String | Status | RING |
 | **\[extid\]** | String | The extension number \(callee\) | 1000 |
-| **&lt;inbound\|outbound&gt;** | String | The inbound ID/ outbound ID | 1495771030.366 |
+| **&lt;inbound&#124;outbound&gt;** | String | The inbound ID/ outbound ID | 1495771030.366 |
 | **\[from\]** | String | The caller's number | 1806354000 |
 | **\[to\]** | String | The callee's number | 1237457 |
 | **\[callid\]** | String | A unique identifier of the call | 1495771030.365 |
