@@ -1,4 +1,4 @@
-## Interaction Method（新增交互方式1的说明） {#interaction-method}
+## Interaction Method {#interaction-method}
 
 S-Series VoIP PBX interacts with the application server through HTTPS protocol: sends HTTPS request, and receives the application server's HTTPS response. S-Series VoIP PBX and the application server both act as a server and a client for each other.
 
@@ -14,7 +14,7 @@ Contents are defined by .json.
 
 There are two interaction methods between S-Series VoIP PBX and the application server.
 
-  **1. The application server sends request to S-Series VoIP PBX.**
+**1. The application server sends request to S-Series VoIP PBX.**
 
 In this case, the application server is the client, and S-Series PBX will function as the server. The picture below shows this scenario: the application server initiates the call and the query.
 
@@ -22,7 +22,7 @@ In this case, the application server is the client, and S-Series PBX will functi
 
 ![interaction method](../assets/interaction_method.png)
 
-  **2. S-Series VoIP PBX pushes notifications to the application server.**
+**2. S-Series VoIP PBX pushes notifications to the application server.**
 
 In this case, the application server is the server, and S-Series VoIP PBX will function as the client.
 
