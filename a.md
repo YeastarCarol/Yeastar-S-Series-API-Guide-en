@@ -2,12 +2,12 @@
 
 #### **API Format：**
 
-|  | **Symbol** | **Description** |
-| :--- | :--- | :--- |
-|  | **&lt;&gt;** | Required parameter. If it's a request, the parameter is required for the request. If it's a response, the parameter is required for the response. |
-| \*\*&lt;X Y | Z&gt;\*\* | Requicred parameter. The vertical bar means "or". |
-|  | **\[\]** | Optional parameter. |
-|  | **\[X\|Y\|Z\]** | Optional parameter. The vertical bar means "or". |
+| **Symbol** | **Description** |
+| :--- | :--- |
+| **&lt;&gt;** | Required parameter. If it's a request, the parameter is required for the request. If it's a response, the parameter is required for the response. |
+| **&lt;{% raw %}X\|Y\|Z&gt;**| Requicred parameter. The vertical bar means "or". |
+| **\[\]** | Optional parameter. |
+| **\[X\|Y\|Z\]** | Optional parameter. The vertical bar means "or". |
 
 #### 
 
