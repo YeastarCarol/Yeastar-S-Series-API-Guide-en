@@ -23,7 +23,7 @@ Through this interface, developers could configure extension number, name, concu
 | **\[registername\]** | String | The registration name | Letters and digits, maximum length 31. Cannot be blank. |
 | **\[registerpassword\]** | String | The registration password | ;&\''\'&lt;&gt;\| are invalid for password. Neither is space valid. Maximum length is 31. Cannot be blank. |
 | **\[maxregistrations\]** | String | Allowed maximum concurrent registrations | A range from 1 to 5 |
-| **\[loginpassword\]** | String | The login password |;&\"\'\ are invalid for password. Neither is space valid. Length from 6 to 63. |
+| **\[loginpassword\]** | String | The login password |;&"'are invalid for password. Neither is space valid. Length from 6 to 63. |
 | **\[email\]** | String | The Email address | apple@yeastar.com |
 | **\[mobile\]** | String | The mobile number | Digits. Maximum length is 31.When calls are set to be forwarded to the extension's associated mobile number or when Mobility Extension is enabled, this cannot be blank. |
 | **\[hasvoicemail\]** | String | Enable or disable Voicemail feature | On: enable  Off: disable |
