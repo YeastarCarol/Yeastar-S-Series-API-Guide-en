@@ -1,6 +1,6 @@
 # Query One or More IVRs
 
-Through this interface, developers could fetch detailed information like IVR number, IVR name, keypress events, response timeout, etc. of one or more IVRs.
+Through this interface, developers could query detailed information like IVR number, IVR name, keypress events, response timeout, etc. of one or more IVRs.
 
 **Request method:** POST
 

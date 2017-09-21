@@ -1,6 +1,6 @@
-# IVR \(新增页面\)
+# IVR
 
-Through this interface, developers could fetch IVR information and configure IVR.
+Through this interface, developers could query IVR information and configure IVR.
 
 ###  {#configure-an-individual-ivr}
 

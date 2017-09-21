@@ -1,6 +1,6 @@
 # Query Trunk List
 
-Through this interface, developers could fetch basic information like trunk name, trunk status, trunk type, etc. of all trunks.
+Through this interface, developers could query basic information like trunk name, trunk status, trunk type, etc. of all trunks.
 
 **Request method:** POST
 
