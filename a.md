@@ -7,7 +7,7 @@
 | **&lt;&gt;** | Required parameter. If it's a request, the parameter is required for the request. If it's a response, the parameter is required for the response. |
 | **&lt;{% raw %}XIYIZ{% endraw %}&gt;**| Required parameter. The vertical bar means "or". |
 | **\[\]** | Optional parameter. |
-| **\[X &#124; Y &#124; Z]** | Optional parameter. The vertical bar means "or". |
+| **\[X&#124;Y&#124;Z]** | Optional parameter. The vertical bar means "or". |
 
 #### 
 
