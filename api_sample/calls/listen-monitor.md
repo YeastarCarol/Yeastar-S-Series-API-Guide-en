@@ -1,4 +1,4 @@
-### Listen Monitor（新增Note） {#listen-monitor}
+### Listen Monitor {#listen-monitor}
 
 Through this interface, an extension can monitor another extension's call in Listen mode.
 
@@ -8,7 +8,7 @@ Through this interface, an extension can monitor another extension's call in Lis
 2. Make extension A monitor extension B's call in Listen mode;
 3. If the operation is successful, extension A will auto answer and start monitoring the extension B's conversation.
 
-Note: some IP phone modols or softphones may not support auto answer. In this case, IP phones or softphones will ring first, and users need to pick up the call manually to start monitoring. （新增）
+Note: some IP phone models or softphones may not support auto answer. In this case, IP phones or softphones will ring first, and users need to pick up the call manually to start monitoring. 
 
 **Conditions**
 

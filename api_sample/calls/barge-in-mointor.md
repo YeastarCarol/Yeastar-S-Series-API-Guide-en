@@ -1,4 +1,4 @@
-### Barge-in Monitor（新增note） {#barge-in-monitor}
+### Barge-in Monitor {#barge-in-monitor}
 
 Through this interface, an extension can barge in another extension's call. As a result, all the three parties can talk to each other.
 
@@ -8,7 +8,7 @@ Through this interface, an extension can barge in another extension's call. As a
 2. Make extension A barge in extension B's call;
 3. If the operation is successful, extension A will auto answer and barge in the extension B's conversation.
 
-Note: some IP phone modols or softphones may not support auto answer. In this case, IP phones or softphones will ring first, and users need to pick up the call manually to start monitoring.（新增）
+Note: some IP phone models or softphones may not support auto answer. In this case, IP phones or softphones will ring first, and users need to pick up the call manually to start monitoring.
 
 **Conditions**
 
