@@ -1,4 +1,4 @@
-# Appendix A: Error Code Descriptions （内有变） {#appendix-a-error-code-descriptions}
+# Appendix A: Error Code Descriptions （表格内有变） {#appendix-a-error-code-descriptions}
 
 | **Error Code** | **Description** |
 | --- | --- |
@@ -24,8 +24,8 @@
 | **10022** | The alarm already exists |
 | **10023** | The audio file does not exist |
 | **10024** | The extension does not have outbound call permission |
-| **10025（新增 ）** | High frequency of using system automatic apply for new configuration  |
-| **10027（新增）** | The GSM module is in use or there is not idle GSM Module  |
+| **10025（新增 ）** | High frequency of using system automatic apply for new configuration |
+| **10027（新增）** | The GSM module is in use or there is not idle GSM Module |
 | **20000** | Only support json format |
 | **20001** | Only support POST request |
 | **20002** | User login failure \(user locked out\) |
