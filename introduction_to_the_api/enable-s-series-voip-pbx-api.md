@@ -16,7 +16,7 @@ Note: the username and the password here will be used by the 3rd party software 
 
 ![](/assets/3.png)
 
-4\) Decide if the trunks need to enable Status Monitor \(enable by default\), Control Inbound Call Answering, and Control Inbound Call Destination.
+4\) Decide if the trunks need to enable Status Monitor \(enabled by default\), Control Inbound Call Answering, and Control Inbound Call Destination.
 
 **Control Inbound Call Answering**
 
