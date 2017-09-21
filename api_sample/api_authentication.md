@@ -60,7 +60,7 @@ With heartbeat packet, S-Series VoIP PBX can update IP, Port, and URL of the con
 | --- | --- | --- | --- |
 | **&lt;ipaddr&gt;** | String | Updated IP address of the application server | 192.168.5.150 |
 | **&lt;port&gt;** | String | Updated port number; this port will be used by the application server to monitor the report sent by API. | 0&lt;port&lt;65536 |
-| **\[url\]** | String | Updated URL of the application server |  |
+| **\[url\]** | String | Updated URL of the application server | N/A |
 
 **Response sample:**
 

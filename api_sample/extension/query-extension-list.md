@@ -20,13 +20,13 @@ No parameter. Only need to send the request.
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | :--- | :--- | :--- | :--- |
-| **&lt;extlist&gt;** | object | Extension object |  |
-| **&lt;extnumber&gt;** | nt | The extension number | 1000 |
-| **&lt;status&gt;** | string | Current status of the extension | Unavailable, Registered, Ringing, Busy, Hold, Malfunction, Idle, Fxsnoport |
-| **&lt;type&gt;** | string | The extension type | SIP, FXS |
-| **\[port\]** | string | The extension port. When the extension is analog phone, the parameter will be displayed. | Span1\_Port3 |
-| **&lt;username&gt;** | string | Username | Ina Tang |
-| **\[agentid\]** | string | The agent ID to be announced in the greeting prompt. The parameter is null by default and, if it is not specified, the extension number will be announced instead. | 6103 |
+| **&lt;extlist&gt;** | Object | Extension object |  |
+| **&lt;extnumber&gt;** | Int | The extension number | 1000 |
+| **&lt;status&gt;** | String | Current status of the extension | Unavailable, Registered, Ringing, Busy, Hold, Malfunction, Idle, Fxsnoport |
+| **&lt;type&gt;** | String | The extension type | SIP, FXS |
+| **\[port\]** | String | The extension port. When the extension is analog phone, the parameter will be displayed. | Span1\_Port3 |
+| **&lt;username&gt;** | String | Username | Ina Tang |
+| **\[agentid\]** | String | The agent ID to be announced in the greeting prompt. The parameter is null by default and, if it is not specified, the extension number will be announced instead. | 6103 |
 
 **Possible error code: **30001
 
