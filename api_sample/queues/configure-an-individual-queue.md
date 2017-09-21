@@ -18,7 +18,7 @@ Through this interface, developers could configure an individual queue.
 | :--- | :--- | :--- | :--- |
 | **&lt;queueid&gt;** | Int | The requested queue number | 6200 |
 | **\[queuenumber\]** | Int | The modified queue number | 6200 |
-| **\[queuename\]** | String | The queue name | !$\(\)\/\#;,\"=&lt;&gt;&'\`^%@{} &#124; are invalid. Neither is space character valid. Maximum length is 31. Cannot be blank. |
+| **\[queuename\]** | String | &lt;span style="\#883333"&gt;The queue name&lt;/span&gt; | !$\(\)\/\#;,\"=&lt;&gt;&'\`^%@{} \| are invalid. Neither is space character valid. Maximum length is 31. Cannot be blank. |
 | **\[password\]** | String | The password to join dynamic agent | Digits. Maximum length is 127. |
 | **\[ringstrategy\]** | String | The ring strategy | Options: Ring All, Least Recent, Fewest Calls, Random, RRmemory, Linear |
 | **\[failoveraction\]** | String | The failover destination. | Options: Hangup, Extension, Voicemail, IVR, Ring Group, Queue, Conference, Fax to Email, Dial by name |
