@@ -57,7 +57,7 @@ If the application server does not call any of the above two APIs in the set per
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
-| **&lt;inboundid&gt;** | String | Accept the call with the specific inbound ID | 1495703883.314 |
+| **&lt;inboundid&gt;** | String | Refuse  the call with the specific inbound ID | 1495703883.314 |
 
 **Response sample:**
 
