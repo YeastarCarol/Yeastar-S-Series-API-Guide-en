@@ -2,7 +2,7 @@
 
 Through this interface, an outbound call dialed out through the PBX's trunk can be transferred to another trunk. As a result, the two numbers can establish calls with the PBX as the transit stop.
 
-At least one trunk should be available at the time of transfer. And the outbound route's dial pattern should be matched.
+At least one trunk should be available at the time of transfer. And the call will use an extension's call permission and match against the outbound route's dial pattern.
 
 Note: the call can be transferred whether it's a ringing call or an ongoing call.
 
