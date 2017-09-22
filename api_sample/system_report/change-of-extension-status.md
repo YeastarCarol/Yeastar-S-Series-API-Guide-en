@@ -1,8 +1,8 @@
-### Change of Extension Status （新增内容及表格） {#change-of-extension-status}
+### Change of Extension Status {#change-of-extension-status}
 
 The PBX will send a report to the application server when the extension status changes. So the application server can sync the changes timely.
 
-**Precondition:** need to enable extension's status monitor in the "Settings-&gt;PBX-&gt;General-&gt;API" of S-Series VoIP PBX Web interface.\(新增\)
+**Precondition:** need to enable extension's status monitor in the "Settings-&gt;PBX-&gt;General-&gt;API" of S-Series VoIP PBX Web interface.
 
 **Extension Status Descriptions:**
 

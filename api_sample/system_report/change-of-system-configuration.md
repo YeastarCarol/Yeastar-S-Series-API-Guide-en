@@ -1,4 +1,4 @@
-### Change of System Configuration（新增表格） {#change-of-system-configuration}
+### Change of System Configuration {#change-of-system-configuration}
 
 The PBX will send a report to the application server when the PBX’s configuration changes. So the application server can sync the changes timely.
 
@@ -14,8 +14,8 @@ At present, only the trunk and extension configuration change will be reported. 
 | --- | --- | --- | --- |
 | **&lt;configchange&gt;** | String | Configuration change | N/A |
 | **&lt;type&gt;** | String | Type | Trunk, extension |
-| **&lt;trunkname&gt;** | String | The name of trunk with configuration change | S-142 |
-| **&lt;operation&gt;** | String | Operation | add, delete, update |
+| **&lt;trunkname&gt;** | String | The name of trunk with configuration change | SIP-142 |
+| **&lt;operation&gt;** | String | Operation | add, del, update |
 
 
 
