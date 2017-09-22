@@ -45,7 +45,3 @@ Dial the calling party's number first. The call is answered. Then dial the calle
 
 **Possible error code:** 10004, 10006, 10012, 30001
 
-###  {#transfer-an-inbound-call-to-a-queue}
-
-
-

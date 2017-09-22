@@ -1,10 +1,10 @@
 ### Transfer an Inbound Call to a Queue {#transfer-an-inbound-call-to-a-queue}
 
-Through this interface, an inbound call from an external number can be transferred to a queue. When the queue has idle extensions, the call will be handled accordingly. As a result:
+Through this interface, an inbound call from an external number can be transferred to a queue. When the queue has idle agents, the call will be handled accordingly. As a result:
 
-1. If there are idle extensions in the queue, the call will be passed according to the ring strategy.
+1. If there are idle agents in the queue, the call will be passed according to the ring strategy.
 
-2. If all extensions are busy, the call will wait in the queue and hear the MOH. The first call in the queue will be answered first when the queue is idle.
+2. If all agents are busy, the call will wait in the queue and hear the music on hold. The first call in the queue will be answered first when the queue is idle.
 
 **Request method:** POST
 

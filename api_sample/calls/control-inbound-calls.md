@@ -1,6 +1,6 @@
 # Control Inbound Calls
 
-If the trunk's API has Inbound Call Answering Control enabled, then whenever there's a call to this trunk, the PBX will send the API report message of this event—the invite event—to the application server. The application server will have a set period of time \(10 seconds by default\) to control the inbound call. 
+If the trunk's API has Inbound Call Answering Control enabled, then whenever there's a call to this trunk, the PBX will send the API report message of this event—the invite event—to the application server. The application server will have a set period of time \(10 seconds by default and unchangable\) to control the inbound call.
 
 **The application server can perform the following operations:**
 
