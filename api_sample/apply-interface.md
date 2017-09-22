@@ -1,4 +1,4 @@
-# "**Apply All" Interface（新增页面）**
+# "**Apply All" Interface**
 
 In general, when developers do some system or extension configurations mentioned in this guide, like configuring an extension or IVR, using the S-Series API, the new settings will be applied automatically after the corresponding requests succeed. In order to avoid some exception that configuration made through the API failed to be applied because of the high frequency of automatic apply, developers can invocate this interface to apply all settings after all operations are done.
 
