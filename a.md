@@ -5,9 +5,9 @@
 | **Symbol** | **Description** |
 | :--- | :--- |
 | **&lt;&gt;** | Required parameter. If it's a request, the parameter is required for the request. If it's a response, the parameter is required for the response. |
-| **&lt;X\|Y\|Z&gt;** | Required parameter. The pipe means "or". |
+| **&lt;X&#124;Y&#124;Z&gt;** | Required parameter. The pipe means "or". |
 | **\[\]** | Optional parameter. |
-| **\[X\|Y\|Z\]** | Optional parameter. The pipe means "or". |
+| **\[X&#124;Y&#124;Z\]** | Optional parameter. The pipe means "or". |
 
 #### 
 
