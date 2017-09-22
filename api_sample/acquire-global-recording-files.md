@@ -10,7 +10,7 @@ Step 2: get a random string consisting of numbers and characters, which is creat
 
 Step 3: combine the randon string with other elements to form a specific download request address
 
-**Note: **the valid length of a random string is 30 seconds, and each random string can be used for only one time.
+**Note: **the random string is only valid for 30 seconds, and each random string can be used only once.
 
 **Request method:** POST
 
