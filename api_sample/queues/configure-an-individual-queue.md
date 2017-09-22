@@ -26,14 +26,14 @@ Through this interface, developers could configure an individual queue.
 | **\[agents\]** | String | Static agents | 1000, 1001 |
 | **\[agenttimeout\]** | Int | The agent timeout | Options: 10, 20, 30, 40 50 |
 | **\[wrapuptime\]** | Int | The wrap-up time | Options: 10, 20, 30, 40 50 |
-| **\[ringinuse\]** | String | Ring the members whose device are known to be “in use” | On: enable Off: disable |
+| **\[ringinuse\]** | String | Ring the members whose device are known to be “in use” | on: enable <br> off: disable |
 | **\[retry\]** | Int | The number of seconds to wait before trying all the phones again | Options: 10, 20, 30, 40 50 |
 | **\[maxwaittime\]** | Int | The caller max wait time | Options: 300, 600, 900, 1200, 1800 |
-| **\[joinempty\]** | String | Allow callers to join a queue that has no agents | On: enable  Off: disable |
-| **\[leavewhenempty\]** | String | Callers already on hold will be forced out of a queue when no agents are available. | On: enable  Off: disable |
-| **\[announcepos\]** | String | Announce position of caller in the queue. | On: enable  Off: disable |
+| **\[joinempty\]** | String | Allow callers to join a queue that has no agents | on: enable <br> off: disable |
+| **\[leavewhenempty\]** | String | Callers already on hold will be forced out of a queue when no agents are available. | on: enable <br> off: disable |
+| **\[announcepos\]** | String | Announce position of caller in the queue. | on: enable <br> off: disable |
 | **\[announcefreq\]** | String | How often to announce queue position and estimated hold time. | Options: 0, 15, 30, 45, 60, 120, 180, 240, 300, 600, 1200 |
-| **\[announceholdtime\]** | Int | Announce the hold time to the caller periodically | On: enable  Off: disable |
+| **\[announceholdtime\]** | Int | Announce the hold time to the caller periodically | on: enable <br> off: disable |
 | **\[userannouncefreq\]** | Int | How often to play the periodic announcements. | Options: 0, 15, 30, 45, 60, 120, 180, 240, 300, 600, 1200 |
 | **\[breakoutkey\]** | String | The breakout key | Options: None, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, \*, \# |
 | **\[breakoutaction\]** | String | The breakout action | Options: Hang up, Extension, Voicemail, IVR, Ring Group, Queue, Conference, Fax to Email, Dial by Name |

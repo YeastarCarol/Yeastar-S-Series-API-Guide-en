@@ -52,8 +52,8 @@ Through this interface, developers could query detailed information like queue n
 | **&lt;userannounce&gt;** | String | An periodic announcement | \[None\] |
 | **&lt;userannouncefreq&gt;** | Int | How often to play the periodic announcements. | 30 |
 | **\[breakoutkey\]** | String | The breakout key | None |
-| **\[breakoutaction\]** | String | The breakout action |  |
-| **\[breakoutdest\]** | String | The breakout destination |  |
+| **\[breakoutaction\]** | String | The breakout action | N/A  |
+| **\[breakoutdest\]** | String | The breakout destination | N/A |
 | **\[idannouncement\]** | String | The file name of the prompt that announces the agent ID. It is "None" by default. Note: When querying one or more queues, this parameter is bound to return value\(s\). | None |
 | **\[satisfactionsurvey\]** | String | The file name of the prompt for customer satisfaction survey. It is "None" by default. If it is not specified, the prompt will not be played. | None |
 
