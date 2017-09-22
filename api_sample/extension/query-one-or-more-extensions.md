@@ -59,8 +59,8 @@ Through this interface, developers could fetch detailed information about an ind
 | **&lt;monitormode&gt;** | String | The monitor mode | Options: Disable, Extensive, Listen, Whisper, Barge-in |
 | **&lt;ringtimeout&gt;** | String | The ring timeout in seconds | 30 |
 | **&lt;maxduration&gt;** | String | The maximum call duration allowed in seconds | 600 |
-| **&lt;dnd&gt;** | String | Enable or disable DND feature | On: enable  Off: disable |
-| **&lt;callrestriction&gt;** | String | Enable or disable outbound dialing restriction | On: enable  Off: disable |
+| **&lt;dnd&gt;** | String | Enable or disable DND feature | on: enable <br> off: disable |
+| **&lt;callrestriction&gt;** | String | Enable or disable outbound dialing restriction | on: enable <br> off: disable |
 | **&lt;agentid&gt;** | String | The agent ID to be announced in the greeting prompt. If left null, the extension number will be announced instead. It is null by default. | 6362 |
 | **\[inbound\]** | Object | Inbound calls, external numbers dial-in | N/A |
 | **&lt;inboundid&gt;** | String | The inbound ID. With this parameter, operations like forwarding, query, and hangup can be performed. | 156785 |
