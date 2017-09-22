@@ -63,7 +63,7 @@ Through this interface, developers could fetch detailed information about an ind
 | **&lt;callrestriction&gt;** | String | Enable or disable outbound dialing restriction | On: enable  Off: disable |
 | **&lt;agentid&gt;** | String | The agent ID to be announced in the greeting prompt. If left null, the extension number will be announced instead. It is null by default. | 6362 |
 | **\[inbound\]** | Object | Inbound calls, external numbers dial-in | N/A |
-| **&lt;inboundid&gt;** | Int | The inbound ID. With this parameter, operations like forwarding, query, and hangup can be performed. | 156785 |
+| **&lt;inboundid&gt;** | String | The inbound ID. With this parameter, operations like forwarding, query, and hangup can be performed. | 156785 |
 | **&lt;from&gt;** | String | The caller's number | 1000 |
 | **&lt;to&gt;** | String | The callee's number | 5003 |
 | **&lt;trunk&gt;** | String | The name of the trunk that passes the inbound call | Sip-trunk |
