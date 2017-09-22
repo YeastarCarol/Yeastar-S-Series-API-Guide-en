@@ -1,4 +1,4 @@
-# Call Answered \(新增表格\)
+# Call Answered
 
 The PBX will send a report to the application server when the calling party's call is answered.
 
