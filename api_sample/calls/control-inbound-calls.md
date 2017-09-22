@@ -37,7 +37,7 @@ If the application server does not invocate any of the above two APIs in the set
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
-| **&lt;accept&gt;** | String | Result | Success or Failed |
+| **&lt;status&gt;** | String | Result | Success or Failed |
 
 **Possible error code:** 10004, 10007, 30001
 
@@ -67,7 +67,7 @@ If the application server does not invocate any of the above two APIs in the set
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
-| **&lt;accept&gt;** | String | Result | Success or Failed |
+| **&lt;status&gt;** | String | Result | Success or Failed |
 
 **Possible error code:** 10004, 10007, 30001
 
