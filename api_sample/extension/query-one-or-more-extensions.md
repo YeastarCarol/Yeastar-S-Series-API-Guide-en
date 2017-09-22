@@ -43,7 +43,7 @@ Through this interface, developers could fetch detailed information about an ind
 | **&lt;email&gt;** | String | The email address | ina@yeastar.com |
 | **&lt;mobile&gt;** | String | The mobile number | 134899999999 |
 | **&lt;language&gt;** | String | The language of the system prompt | System Default |
-| **&lt;hasvoicemail&gt;** | String | Enable or disable Voicemail feature | on: enable   off: disable |
+| **&lt;hasvoicemail&gt;** | String | Enable or disable Voicemail feature | on: enable  <br> off: disable |
 | **&lt;vmsecret&gt;** | Int | The voicemail password | 3000 |
 | **&lt;enablevmtoemail&gt;** | String | Whether to enable Send Voicemail to Email feature or not | on: enable <br> off: disable |
 | **\[alwaysforward\]** | String | Enable or disable Always Call Forwarding feature | on: enable <br> off: disable |
