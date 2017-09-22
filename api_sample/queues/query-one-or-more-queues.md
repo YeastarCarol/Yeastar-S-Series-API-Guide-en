@@ -33,7 +33,7 @@ Through this interface, developers could query detailed information like queue n
 | **&lt;queuenumber&gt;** | int | The queue number | 6701 |
 | **&lt;queuename&gt;** | String | The queue name | Productteam |
 | **&lt;password&gt;** | String | The password to join dynamic agent | 123456 |
-| **&lt;ringstrategy&gt;** | String | The ring strategy | Options: Ring All, Least Recent, Fewest Calls, Random, RRmemory, Linear |
+| **&lt;ringstrategy&gt;** | String | The ring strategy | Options: Ring All, Least Recent, Fewest Calls, Random, Rrmemory, Linear |
 | **&lt;failoveraction&gt;** | String | The failover destination. | Hang up |
 | **\[agents\]** | String | Static agents | 1000, 1001 |
 | **&lt;agenttimeout&gt;** | String | The agent timeout | 30 |
