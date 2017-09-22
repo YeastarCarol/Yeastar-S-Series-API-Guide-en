@@ -18,7 +18,7 @@ Note: A text message have a maximum length of 2000 characters and no emoji shoul
 
 **Note: messages sent must be URL encoded.**
 
-**An online coding tool for your reference: **[http://tool.oschina.net/encode?type=4](http://tool.oschina.net/encode?type=4)
+**An online coding tool for your reference: **[**https://www.urlencoder.org**](http://www.urlencoder.org)
 
 **Request parameters descriptions:**
 
