@@ -9,7 +9,7 @@ If the trunk's API has Inbound Call Answering Control enabled, then whenever the
 
 **When times out**
 
-If the application server does not call any of the above two APIs in the set period of time, by default, the call will be accepted by the PBX and go to the relevant destination.
+If the application server does not invocate any of the above two APIs in the set period of time, by default, the call will be accepted by the PBX and go to the relevant destination.
 
 #### **Accept:**
 
