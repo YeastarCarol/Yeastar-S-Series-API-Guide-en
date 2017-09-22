@@ -1,6 +1,6 @@
-# Hotel Wake-up Service\(新增页面\)
+# Hotel Wake-up Service
 
-Though this interface, developers could configure alarm for hotel wake-up service. Operations like custom alarm prompt setting, alarm time setting, and etc. can be performed.
+Though this interface, developers could configure alarm for hotel wake-up service. Operations like custom alarm prompt setting, alarm time setting, etc. can be performed.
 
 # 
 
