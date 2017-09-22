@@ -13,7 +13,7 @@ At present, only the trunk and extension configuration change will be reported. 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
 | **&lt;configchange&gt;** | String | Configuration change | N/A |
-| **&lt;type&gt;** | String | Type | Trunk, extension |
+| **&lt;type&gt;** | String | Type | trunk, extension |
 | **&lt;trunkname&gt;** | String | The name of trunk with configuration change | SIP-142 |
 | **&lt;operation&gt;** | String | Operation | add, del, update |
 
