@@ -38,7 +38,7 @@ Step 3: combine the randon string with other elements to form a specific downloa
 | --- | --- | --- | --- |
 | **&lt;Status&gt;** | String | Result | Success or Failed |
 | **&lt;recording&gt;** | String | The name of the global recording file | Hello001 |
-| **&lt;random&gt;** | String | A random string created for global recording file download. It serves as a component of a specified request address for download. |  |
+| **&lt;random&gt;** | String | A random string created for global recording file download. It serves as a component of a specified request address for download. | N/A |
 
 **Download request address sample \( random string combination method\):**
 
