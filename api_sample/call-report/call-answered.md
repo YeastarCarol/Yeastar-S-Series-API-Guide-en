@@ -2,7 +2,7 @@
 
 The PBX will send a report to the application server when the calling party's call is answered.
 
-Answering call \(the called party\) and call answered \(the calling party\) coexist. In the report, the party who triggers the call will appear first.
+Answering call \(the called party\) and call answered \(the calling party\) coexist. In the report, the calling party's number will appear first.
 
 **Report sample:**
 
