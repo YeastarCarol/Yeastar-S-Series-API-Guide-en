@@ -32,7 +32,7 @@ No parameter. Only need to send the request.
 
 | **FXO Trunk** | **BRI/E1/T1/J1** | **GSM/CDMA/UMTS** | **SIP/IAX** |
 | :--- | :--- | :--- | :--- |
-| 1.Fault                                    2.Idle                                      3.Busy | 1.Fault                                  2.Alarm                                 3.Down                                   4.Up | 1.Power Off                           2.Alarm                                 3.No SIM                               4.No Signal                           5.Pin Error                            6.Unregister                        7.Busy                                  8.Idle | 1.Registering                         2.Failure                               3.Registered \(Unmonitored\)                                           4.Disable                              5.Unknown |
+| 1. Fault                                    2. Idle                                      3. Busy | 1.Fault                                  2. Alarm                                 3. Down                                   4. Up | 1. Power Off                           2. Alarm                                 3. No SIM                               4. No Signal                           5. Pin Error                            6. Unregister                        7. Busy                                  8. Idle | 1. Registering                         2. Failure                               3. Registered \(Unmonitored\)                                           4. Disable                              5. Unknown |
 
 
 
