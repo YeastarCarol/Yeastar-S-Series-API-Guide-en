@@ -39,14 +39,14 @@ Through this interface, developers could query detailed information like queue n
 | **&lt;agenttimeout&gt;** | String | The agent timeout | 30 |
 | **&lt;agentannounce&gt;** | String | The agent announcement | \[None\] |
 | **&lt;wrapuptime&gt;** | Int | The wrap-up time | 30 |
-| **&lt;ringinuse&gt;** | String | Ring the members whose device are known to be “in use” | On: enable  Off: disable |
+| **&lt;ringinuse&gt;** | String | Ring the members whose device are known to be “in use” | on: enable </br> off: disable |
 | **&lt;retry&gt;** | Int | The number of seconds to wait before trying all the phones again | 30 |
 | **&lt;musiconhold&gt;** | String | The on-hold music | \[None\] |
 | **&lt;maxwaittime&gt;** | Int | The caller max wait time | 30 |
 | **&lt;joinempty&gt;** | String | Allow callers to join a queue that has no agents | On: enable  Off: disable |
-| **&lt;leavewhenempty&gt;** | String | Callers already on hold will be forced out of a queue when no agents are available. | On: enable  Off: disable |
+| **&lt;leavewhenempty&gt;** | String | Callers already on hold will be forced out of a queue when no agents are available. | on: enable </br> off: disable |
 | **\[joinannounce\]** | String | Announcement played to callers prior to joining the queue. | \[None\] |
-| **&lt;announcepos&gt;** | String | Announce position of caller in the queue. | On: enable  Off: disable |
+| **&lt;announcepos&gt;** | String | Announce position of caller in the queue. | on: enable </br> off: disable |
 | **&lt;announcefreq&gt;** | String | How often to announce queue position and estimated hold time. | 30 |
 | **&lt;announceholdtime&gt;** | Int | Announce the hold time to the caller periodically | 30 |
 | **&lt;userannounce&gt;** | String | An periodic announcement | \[None\] |
