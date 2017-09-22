@@ -1,6 +1,6 @@
 # Call Released
 
-The PBX will send a report to the application server when a call is released. In the report, the calling party's number will appear first.
+The PBX will send a report to the application server when a call is released. In the report, if the calling party releases the call,  calling party's number will appear first and vice versa.
 
 **Report sample:**
 

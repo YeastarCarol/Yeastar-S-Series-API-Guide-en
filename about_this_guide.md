@@ -8,7 +8,7 @@ S50, S100, S300
 
 #### **Software Version**
 
-S-Series VoIP PBX API feature currently is only available for firmware version 30.5.0.22 and above.
+S-Series VoIP PBX API feature currently is only available for firmware version 30.5.0.30 and above.
 
 #### **Audience**
 
