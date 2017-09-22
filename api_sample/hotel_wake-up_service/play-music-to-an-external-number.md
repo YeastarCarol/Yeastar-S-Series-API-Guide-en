@@ -2,11 +2,11 @@
 
 ### Play Music to an External Number {#play-music-to-an-external-number}
 
-Through this interface, developers could play music to an external number. The workflow is as follows: the PBX system dials an external number and the moment the outbound call is established, the music will be played automatically. Multiple pieces of music can be played consecutively as if it were one; separate the file names of different pieces of music with "+" in the request. Be sure that the file name of music cannot be a pure number, nor can it include the character "+". （新增）
+Through this interface, developers could play music to an external number. The workflow is as follows: the PBX system dials an external number and the moment the outbound call is established, the music will be played automatically. Multiple pieces of music can be played consecutively as if it were one; separate the file names of different pieces of music with "+" in the request. Be sure that the file name of music cannot be a pure number, nor can it include the character "+".
 
-**Precondition:** all custom music used must be uploaded to the PBX system Custom Prompt list beforehand. （新增）
+**Precondition:** all custom music used must be uploaded to the PBX system Custom Prompt list beforehand.
 
-**Note: **this interface does not take effect on PSTN line. Because the moment an outbound call is dialed out through the PSTN trunk, whether it is picked up or not, the call is established. （新增）
+**Note: **this interface does not take effect on PSTN line. Because the moment an outbound call is dialed out through the PSTN trunk, whether it is picked up or not, the call is established.
 
 **Request method:** POST
 

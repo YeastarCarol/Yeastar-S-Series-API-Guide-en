@@ -1,6 +1,6 @@
 ### Delete an Alarm {#delete-an-alarm}
 
-Through this interface, developers could delete alarm\(s\) for specific extension.（新增）
+Through this interface, developers could delete alarm\(s\) for a specific extension.
 
 Note: can only operate on one extension's alarm at a time.
 

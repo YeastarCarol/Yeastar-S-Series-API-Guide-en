@@ -1,6 +1,6 @@
-### Modify an Alarm（新增内容） {#modify-an-alarm}
+### Modify an Alarm {#modify-an-alarm}
 
-Through this interface, developers could modify extension's alarm. （新增）
+Through this interface, developers could modify an extension's alarm.
 
 Note: can only modify one extension's alarm at a time.
 
