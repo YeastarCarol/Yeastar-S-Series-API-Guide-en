@@ -1,8 +1,6 @@
 ### Hold a Call {#hold-a-call}
 
-Through this interface, the call of the specified extension can be put on hold. When put on hold, the extension can initiate a new call through API.
-
-Use the "Resume Call on Hold" interface to resume the call. The call can also be resumed if the extension finishes the new call.
+Through this interface, the call of the specified extension can be put on hold. Use the "Resume Call on Hold" interface to resume the call.
 
 **Request method:** POST
 

@@ -14,7 +14,7 @@ Through this interface, developers could fetch detailed information like caller,
 
 **Request parameters descriptions:**
 
-1. Sending no parameter means query all information.
+1. Sending no parameter means query all outbound calls.
 2. With parameters in request, developers could query one or more outbound calls. Separate them with ",".
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |

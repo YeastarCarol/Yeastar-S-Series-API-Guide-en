@@ -23,7 +23,7 @@ Through this interface, an extension could dial an external number through the P
 | --- | --- | --- | --- |
 | **&lt;extid&gt;** | Int | The extension number | 1002 |
 | **&lt;outto&gt;** | String | The external number | 41000 |
-| **\[autoanswer\]** | String | Whether to auto answer the call or not. This parameter only applies the SIP phone to support. It means "no" if the parameter has not been specified. | Yes/No |
+| **\[autoanswer\]** | String | Whether to auto answer the call or not. This parameter only applies the SIP phone to support. It means "no" if the parameter has not been specified. | yes/no |
 
 **Response sample:**
 

@@ -1,6 +1,6 @@
 ### Hang up an Extension Call {#hang-up-an-extension-call}
 
-Through this interface, the ongoing internal call of the specified extension can be terminated, and the operation result will be returned.
+Through this interface, the ongoing call of the specified extension can be terminated, and the operation result will be returned.
 
 **Request method:** POST
 
