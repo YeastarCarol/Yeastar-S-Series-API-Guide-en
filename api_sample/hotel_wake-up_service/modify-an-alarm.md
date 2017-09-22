@@ -23,10 +23,10 @@ Note: can only modify one extension's alarm at a time.
 | **\[wakeup\]** | Object |  |  |
 | **\[time\]** | String | Time | 11:22 |
 | **\[type\]** | String | Type | Options: onetime, everyday, custom |
-| **\[weekdays\]** | String | The options available when the above \[type\] is "custom" | Options: 1, 2, 3, 4, 5, 6, 0   1 to 6 corresponds to Saturday, 0 corresponds to Sunday |
+| **\[weekdays\]** | String | The options available when the above \[type\] is "custom" | Options: 1, 2, 3, 4, 5, 6, 0.   1 to 6 corresponds to Saturday, 0 corresponds to Sunday |
 | **\[repeats\]** | String | How many times will the alarm be repeated | Options: 1, 2, 3 |
 | **\[repeatinterval\]** | String | The interval in minutes between each repeat | 5 |
-| **\[prompt\]** | String | The prompt played | helloworld, the file name of the custom prompt. Without the parameter, the default prompt "macroform-cold\_day" will be played. |
+| **\[prompt\]** | String | The prompt played | The file name of the custom prompt. Without the parameter, the default prompt "macroform-cold\_day" will be played. |
 
 **Response sample:**
 
