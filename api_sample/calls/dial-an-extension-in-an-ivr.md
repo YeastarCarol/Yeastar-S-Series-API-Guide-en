@@ -24,7 +24,7 @@ Note: need to dial from an extension with route permission and the outbound dial
 | --- | --- | --- | --- |
 | **&lt;ivrid&gt;** | Int | The IVR number | 6500 |
 | **&lt;extid&gt;** | String | The extension number | 1002 |
-| **&lt;autoanswer&gt;** | String | Whether the extension will auto answer the call or not. This parameter requires the SIP phone to support. It means "no" if the parameter has not been specified. | Yes/No |
+| **&lt;autoanswer&gt;** | String | Whether the extension will auto answer the call or not. This parameter requires the SIP phone to support. It means "no" if the parameter has not been specified. | yes/no |
 
 **Response sample:**
 
