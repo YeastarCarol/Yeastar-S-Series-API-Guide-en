@@ -2,7 +2,7 @@
 
 Through this interface, text messages can be sent to an external number through a GSM trunk.
 
-Scenario: When you phone to your carrier to apply for a calling plan, you hear an IVR and press a specific key on your phone as instructed to request detailed information. As a result, a text message is sent to your phone shortly after it is required.
+Scenario: when you phone to your carrier to apply for a calling plan, you hear an IVR and press a specific key on your phone as instructed to request detailed information. As a result, a text message is sent to your phone shortly after it is required.
 
 Note: a text message have a maximum length of 2000 characters and no emoji should be included.
 
