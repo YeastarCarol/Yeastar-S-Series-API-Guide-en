@@ -1,8 +1,8 @@
-### Dial an External Number in a Ring Group\(新增note\) {#dial-an-external-number-in-a-ring-group}
+### Dial an External Number in a Ring Group {#dial-an-external-number-in-a-ring-group}
 
 Through this interface, an outbound call made with an external number being dialed out through S-Series IPPBX’s trunk can be transferred to a ring group as an inbound call after it is established. Once the call is transferred, extensions in the ring group will ring according to the ring strategy.
 
-Note: need to dial from an extension with route permission and the outbound dial pattern should be matched.\(新增\)
+Note: need to dial from an extension with route permission and the outbound dial pattern should be matched.
 
 **Request method:** POST
 
