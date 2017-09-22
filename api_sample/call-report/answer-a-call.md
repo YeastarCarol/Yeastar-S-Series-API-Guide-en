@@ -1,4 +1,4 @@
-# Answer a Call（新增表格）
+# Answer a Call
 
 The PBX will send a report to the application server when an extension answers a call.
 
