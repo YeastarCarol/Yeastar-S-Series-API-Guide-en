@@ -22,7 +22,7 @@ Through this interface, developers could configure an individual queue.
 | **\[password\]** | String | The password to join dynamic agent | Digits. Maximum length is 127. |
 | **\[ringstrategy\]** | String | The ring strategy | Options: Ring All, Least Recent, Fewest Calls, Random, RRmemory, Linear |
 | **\[failoveraction\]** | String | The failover destination. | Options: Hangup, Extension, Voicemail, IVR, Ring Group, Queue, Conference, Fax to Email, Dial by name |
-| **\[failoverdest\]** | String | The failover destination. |  |
+| **\[failoverdest\]** | String | The failover destination. | N/A |
 | **\[agents\]** | String | Static agents | 1000, 1001 |
 | **\[agenttimeout\]** | Int | The agent timeout | Options: 10, 20, 30, 40 50 |
 | **\[wrapuptime\]** | Int | The wrap-up time | Options: 10, 20, 30, 40 50 |
