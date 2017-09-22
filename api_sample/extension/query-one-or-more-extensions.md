@@ -42,20 +42,20 @@ Through this interface, developers could fetch detailed information about an ind
 | **&lt;loginpassword&gt;** | String | The login password | Displayed in MD5 cipher text |
 | **&lt;email&gt;** | String | The email address | ina@yeastar.com |
 | **&lt;mobile&gt;** | String | The mobile number | 134899999999 |
-| **&lt;language&gt;** | String | The language of the system prompt | System default |
-| **&lt;hasvoicemail&gt;** | String | Enable or disable Voicemail feature | On: enable   Off: disable |
+| **&lt;language&gt;** | String | The language of the system prompt | System Default |
+| **&lt;hasvoicemail&gt;** | String | Enable or disable Voicemail feature | on: enable   off: disable |
 | **&lt;vmsecret&gt;** | Int | The voicemail password | 3000 |
-| **&lt;enablevmtoemail&gt;** | String | Whether to enable Send Voicemail to Email feature or not | On: enable   Off: disable |
-| **\[alwaysforward\]** | String | Enable or disable Always Call Forwarding feature | On: enable   Off: disable |
+| **&lt;enablevmtoemail&gt;** | String | Whether to enable Send Voicemail to Email feature or not | on: enable   off: disable |e
+| **\[alwaysforward\]** | String | Enable or disable Always Call Forwarding feature | on: enable   off: disable |
 | **\[atransferto\]\[atransferext\] \[atransferprefix\] \[atransfernum\]** | String | Alway Call Forwarding destination. When forwarding destination is an extension number, the designated extension number should be configured; When forwarding destination is a custom number, the custom number and the corresponding call rule should be configured. | Voicemail: voicemail Extension: ext1000   Mobile Number: mobile1399999999   Custom Number: number95923333 |
-| **\[noanswerforward\]** | String | Enable or disable No Answer Call Forwarding feature | On: enable  Off: disable |
+| **\[noanswerforward\]** | String | Enable or disable No Answer Call Forwarding feature | on: enable  <br>off: disable |
 | **\[ntransferto\] \[ntransferext\] \[ntransferprefix\] \[ntransfernum\]** | String | No answer call forwarding destination. When forwarding destination is an extension number, the designated extension number should be configured; when the forwarding destion is a custom number, the custom number and the corresponding call rule should be configured. | Voicemail: voicemail Extension: ext1000 Mobile Number: mobile1399999999 Custom Number: number95923333 |
-| **\[busyforward\]** | String | Enable or disable When Busy Call Forwarding feature | On: enable  Off: disable |
+| **\[busyforward\]** | String | Enable or disable When Busy Call Forwarding feature | on: enable  off: disable |
 | **\[btransferto\] \[btransferext\] \[btransferprefix\] \[btransfernum\]** | String | When busy call forwarding destination. When the forwarding destination is an extension, the designated extension number should be configured; when the forwarding destination is a custom number, the custom number and the corresponding call rule should be configured. | Voicemail: voicemail Extension: ext1000 Mobile Number: mobile1399999999 Custom Number: number95923333 |
-| **\[enablemobile\]** | String | Enable or disable Mobility Extension feature | On: enable  Off: disable |
-| **\[ringsimultaneous\]** | String | Enable or disable Simultaneous Ringing of Mobility Extension | On: enable  Off: disable |
+| **\[enablemobile\]** | String | Enable or disable Mobility Extension feature | on: enable  off: disable |
+| **\[ringsimultaneous\]** | String | Enable or disable Simultaneous Ringing of Mobility Extension | on: enable  off: disable |
 | **\[mobileprefix\]** | String | A prefix match ing the outbound route | Blank or a specific prefix |
-| **&lt;allowbeingmonitored&gt;** | String | Allow being monitored | On: enable  Off: disable |
+| **&lt;allowbeingmonitored&gt;** | String | Allow being monitored | on: enable  off: disable |
 | **&lt;monitormode&gt;** | String | The monitor mode | Options: Disable, Extensive, Listen, Whisper, Barge-in |
 | **&lt;ringtimeout&gt;** | String | The ring timeout in seconds | 30 |
 | **&lt;maxduration&gt;** | String | The maximum call duration allowed in seconds | 600 |

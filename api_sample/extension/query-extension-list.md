@@ -20,7 +20,7 @@ No parameter. Only need to send the request.
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | :--- | :--- | :--- | :--- |
-| **&lt;extlist&gt;** | Object | Extension object |  |
+| **&lt;extlist&gt;** | Object | Extension object | N/A |
 | **&lt;extnumber&gt;** | Int | The extension number | 1000 |
 | **&lt;status&gt;** | String | Current status of the extension | Unavailable, Registered, Ringing, Busy, Hold, Malfunction, Idle, Fxsnoport |
 | **&lt;type&gt;** | String | The extension type | SIP, FXS |
