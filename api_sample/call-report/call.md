@@ -1,4 +1,4 @@
-# Inbound Call\(新增表格\)
+# Inbound Call
 
 If the trunk's API has Inbound Call Answering Control enabled, then when the trunk answers call, the PBX will send an Incoming event to the application server.
 

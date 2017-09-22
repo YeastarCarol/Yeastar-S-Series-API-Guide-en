@@ -1,4 +1,4 @@
-# Keypress\(新增表格\)
+# Keypress
 
 This event is used report key pressed in the IVRs.
 
@@ -14,7 +14,7 @@ When a call reaches IVR, and the IVR's keypress event is triggered, the PBX will
 | --- | --- | --- | --- |
 | **&lt;action&gt;** | String | Keypress | DTMF |
 | **&lt;callid&gt;** | String | A unique identifier of the call | 1495707950.331 |
-| **&lt;inbound&#124;outbound&gt;** | Object | Inbound call/outbound call |  |
+| **&lt;inbound\|outbound&gt;** | Object | Inbound call/outbound call |  |
 | **&lt;trunk&gt;** | String | The trunk name | sip-142 |
 | **&lt;inboundid&gt;** | String | Inbound ID | 1495707950.331 |
 | **&lt;from&gt;** | String | The caller's number | 1000 |

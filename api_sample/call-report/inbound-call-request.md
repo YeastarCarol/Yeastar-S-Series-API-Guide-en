@@ -1,4 +1,4 @@
-# Inbound Call Request\(新增表格\)
+# Inbound Call Request
 
 If the trunk's API has Inbound Call Answering Control enabled, then whenever there's a call to this trunk, the PBX will send an INVITE event to the application server.
 

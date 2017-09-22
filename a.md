@@ -1,17 +1,17 @@
-# API Format and Version Update Record \(新增更新记录部分\)
+# API Format and Version Update Record
 
 #### **API Format：**
 
 | **Symbol** | **Description** |
 | :--- | :--- |
 | **&lt;&gt;** | Required parameter. If it's a request, the parameter is required for the request. If it's a response, the parameter is required for the response. |
-| **&lt;X&#124;Y&#124;Z&gt;**| Required parameter. The vertical bar means "or". |
+| **&lt;X\|Y\|Z&gt;** | Required parameter. The pipe means "or". |
 | **\[\]** | Optional parameter. |
-| **\[X&#124;Y&#124;Z]** | Optional parameter. The vertical bar means "or". |
+| **\[X\|Y\|Z\]** | Optional parameter. The pipe means "or". |
 
 #### 
 
-#### API Version Description：
+#### API Version Description:
 
 When sending an API request, the request address must include the API version. All request samples in this guide use {version} to represent the API version.
 
@@ -21,7 +21,7 @@ When sending an API request, the request address must include the API version. A
 
 | **Update Time** | **API Version** | **Firmware Version** | **User Guide Version** |
 | :--- | :--- | :--- | :--- |
-| 2017.9.14 | v1.0.1 | 30.5.0.24 | v1.0 |
+| 2017.9.14 | v1.0.1 | 30.5.0.30 | v1.0 |
 
 
 
