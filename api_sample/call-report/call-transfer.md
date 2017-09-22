@@ -14,9 +14,10 @@ The report only includes operations performed by the extensions, for example, di
 | --- | --- | --- | --- |
 | **&lt;action&gt;** | String | Status | Transfer |
 | **\[extid\]** | String | The extension number of the extension that initiates the transfer | 1002 |
-| **&lt;inboundid&#124;outboundid&gt;** | String | The inbound ID/ outbound ID | 1495771030.366 |
+| **&lt;inboundid\|outboundid&gt;** | String | The inbound ID/ outbound ID | 1495771030.366 |
 | **\[from\]** | String | The caller's number | 1806354000 |
 | **\[to\]** | String | The callee's number | 1237456 |
+| **\[trunk\]** | String | The name of the trunk that has been used | Apple\_test |
 | **&lt;callid&gt;** | String | A unique identifier of the call | 1495771030.365 |
 
 
