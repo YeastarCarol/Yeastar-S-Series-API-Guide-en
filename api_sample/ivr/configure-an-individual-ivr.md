@@ -18,7 +18,7 @@ Through this interface, developers could configure IVR number, IVR name, etc. of
 | --- | --- | --- | --- |
 | **&lt;ivrid&gt;** | String | A unique identifier of the configured IVR \(IVR number\) | 6202 |
 | **&lt;ivrnumber&gt;** | String | Modified IVR number | 6204 |
-| **&lt;ivrname&gt;** | String | The IVR name | 6202, !$\(\)\/\#;,\"=&lt;&gt;&'\`^%@{} &#124; are invalid for IVR name. Neither is space valid. Maximum length is 31. Cannot be blank. |
+| **&lt;ivrname&gt;** | String | The IVR name | 6202, !$\(\)/\#;,\"=&lt;&gt;&'\`^%@{} &#124; are invalid for IVR name. Neither is space valid. Maximum length is 31. Cannot be blank. |
 | **\[promptrepeat\]** | String | How many times will the prompt be repeated | A range from 1 to 5 |
 | **\[responsetimeout\]** | Int | Response timeout in seconds. | A range from 1 to 10 |
 | **\[digittimeout\]** | Int | Digit timeout in seconds. | A range from 1 to 10 |
