@@ -1,4 +1,4 @@
-# Enable S-Series VoIP PBX API（步骤1的2\) 3\) 4\),来电接听控制有更改，新增状态监控） {#enable-s-series-voip-pbx-api}
+# Enable S-Series VoIP PBX API {#enable-s-series-voip-pbx-api}
 
 Before using API, the 3rd party software needs to establish connection with S-Series VoIP PBX and S-Series API requires username and password authentication.
 
