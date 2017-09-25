@@ -24,7 +24,7 @@ For example:
 | --- | --- | --- | --- |
 | **&lt;extid&gt;** | Int | The extension number | 1000 |
 | **&lt;wakeup&gt;** | Object | Object |  |
-| **&lt;time&gt;** | String | Time | 11:22 |
+| **&lt;time&gt;** | String | Time | 00:45 |
 | **&lt;type&gt;** | String | Type. When the &lt;type&gt; is "onetime", the alarm will be deleted after it has been repeated for the designated repeat times. | Options: onetime, everyday, custom |
 | **\[weekdays\]** | String | The options available when the above &lt;type&gt; is "custom" | Options: 1, 2, 3, 4, 5, 6, 0. <br>     1 to 6 correspond to Monday to Saturday, 0 corresponds to Sunday |
 | **\[repeats\]** | String | How many times will the alarm be repeated | Options: 1, 2, 3 |
