@@ -34,7 +34,7 @@ Through this interface, developers could fetch detailed information like caller,
 | **&lt;from&gt;** | Int | caller ID | 1000 |
 | **&lt;to&gt;** | Int | callee ID | 41000 |
 | **&lt;trunk&gt;** | String | The name of the trunk that passes the outbound call | SIP-142 |
-| &lt;**status&gt;** | String | Call status | Talking: talking on the call  Progress: progressing the call  Wait: Call Waiting |
+| &lt;**status&gt;** | String | Call status | Talking: talking on the call <br> Progress: progressing the call <br> Wait: Call Waiting |
 
 **Possible error code:** 30001
 

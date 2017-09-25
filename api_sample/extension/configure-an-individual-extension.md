@@ -27,7 +27,7 @@ Through this interface, developers could configure extension number, name, concu
 | **\[email\]** | String | The Email address | apple@yeastar.com |
 | **\[mobile\]** | String | The mobile number | Digits. Maximum length is 31.When calls are set to be forwarded to the extension's associated mobile number or when Mobility Extension is enabled, this cannot be blank. |
 | **\[hasvoicemail\]** | String | Enable or disable Voicemail feature | on: enable <br> off: disable |
-| **\[enablevmtoemail\]** | String | Whether to enable Send Voicemail to Email feature or not | On: enable Off: disable |
+| **\[enablevmtoemail\]** | String | Whether to enable Send Voicemail to Email feature or not | on: enable <br> off: disable |
 | **\[vmsecret\]** | String | The voicemail password | Digits. Maximum length is 63. |
 | **\[alwaysforward\]** | String | Enable or disable Always Call Forwarding feature | on: enable <br> off: disable |
 | **\[atransferto\]** | String | Always call forwarding destination | Options: Voicemail, Extension, Mobile Number, Custom Number |

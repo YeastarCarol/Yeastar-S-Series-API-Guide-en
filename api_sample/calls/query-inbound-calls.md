@@ -34,8 +34,8 @@ Through this interface, developers could fetch detailed information like caller,
 | **&lt;from&gt;** | String | The caller's number | 1000 |
 | **&lt;to&gt;** | String | The callee's number | 1002 |
 | &lt;**callee&gt;** | Object | The called party of an inbound call, could be an extension, IVR, or an outbound ID. | 1002 |
-| **&lt;trunk&gt;** | String | The name of the trunk that passes the inbound call | SIP\_142 |
-| &lt;**status&gt;** | String | Call status | Talking: talking on the call   Progress: Progressing the call  Wait: call waiting |
+| **&lt;trunk&gt;** | String | The name of the trunk that passes the inbound call | SIP\-142 |
+| &lt;**status&gt;** | String | Call status | Talking: talking on the call <br> Progress: Progressing the call <br> Wait: call waiting |
 
 **Possible error code:** 30001
 

@@ -16,8 +16,8 @@ Through this interface, developers could configure an individual queue.
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | :--- | :--- | :--- | :--- |
-| **&lt;queueid&gt;** | Int | The requested queue number | 6200 |
-| **\[queuenumber\]** | Int | The modified queue number | 6200 |
+| **&lt;queueid&gt;** | Int | The requested queue number | 6701 |
+| **\[queuenumber\]** | Int | The modified queue number | 6701 |
 | **\[queuename\]** | String |The queue name | : ! $ ( ) / # ; , [ ] " = < > & ' ` ^ % @ { } &#124;  are invalid. Neither is space character valid. Maximum length is 31. Cannot be blank. |
 | **\[password\]** | String | The password to join dynamic agent | Digits. Maximum length is 127. |
 | **\[ringstrategy\]** | String | The ring strategy | Options: Ring All, Least Recent, Fewest Calls, Random, RRmemory, Linear |
