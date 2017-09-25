@@ -20,7 +20,7 @@ This is used to report the event when the prompt played to the extension and the
 | **&lt;prompt&gt;** | String | The file name of the prompt played | appletest |
 | **&lt;callid&gt;** | String | A unique identifier of the call | 1495780325.384 |
 | **&lt;outbound&gt;** | Object | Whether it's an inbound or outbound call|  N/A|
-| **&lt;trunkname&gt;** | String | Trunk name | sip-142 |
+| **&lt;trunkname&gt;** | String | Trunk name | Apple_test |
 
 
 
