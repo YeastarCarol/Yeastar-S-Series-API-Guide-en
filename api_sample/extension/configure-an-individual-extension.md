@@ -47,7 +47,7 @@ Through this interface, developers could configure extension number, name, concu
 | **\[enablemobile\]** | String | Enable or disable Mobility Extension feature | on: enable <br> off: disable |
 | **\[ringsimultaneous\]** | String | Enable or disable Simultaneous Ringing of Mobility Extension | on: enable <br> off: disable |
 | **\[mobileprefix\]** | String | A prefix matching the outbound route | Digits. Maximum length is 7. |
-| **\[allowbeingmonitored\]** | String | Allow being monitored | On: enable  Off: disable |
+| **\[allowbeingmonitored\]** | String | Allow being monitored | on: enable <br> off: disable |
 | **\[monitormode\]** | String | How to monitor the calls | Options: Disabled, Extensive,Listen, Whisper, Barge-in |
 | **\[ringtimeout\]** | String | The ring timeout in seconds | Options: 15, 30, 60, 120, 300 |
 | **\[maxduration\]** | String | The maximum call duration allowed in seconds | Options: Follow System, Unlimited, 60, 300, 600, 900, 1800, 3600, 6000 |

@@ -14,7 +14,7 @@ No parameter. Only need to send the request.
 
 **Response sample:**
 
-{"status":"Success","deviceinfo":{"devicename":"Yeastar S100","sn":"369364835218","hardwarever":"V1.30 0000-0000","firmwarever":"30.5.0.109","systemtime":"2017-05-24 23:25:20 UTC-8","uptime":"03:25:04","extensionstatus":"7/100"}}
+{"status":"Success","deviceinfo":{"devicename":"Yeastar S100","sn":"369364835218","hardwarever":"V1.30 0000-0000","firmwarever":"30.5.0.19","systemtime":"2017-05-24 23:25:20 UTC-8","uptime":"03:25:04","extensionstatus":"7/100"}}
 
 **Response parameters descriptions:**
 

@@ -22,8 +22,8 @@ Through this interface, developers could configure IVR number, IVR name, etc. of
 | **\[promptrepeat\]** | String | How many times will the prompt be repeated | A range from 1 to 5. |
 | **\[responsetimeout\]** | Int | Response timeout in seconds. | A range from 1 to 10. |
 | **\[digittimeout\]** | Int | Digit timeout in seconds. | A range from 1 to 10. |
-| **\[dialext\]** | String | Allow the caller to dial extension. | on: enable </br> off: disable |
-| **\[dialtocheckvoicemail\]** | String | Allow to check voicemail | on: enable </br> off: disable |
+| **\[dialext\]** | String | Allow the caller to dial extension. | on: enable <br> off: disable |
+| **\[dialtocheckvoicemail\]** | String | Allow to check voicemail | on: enable <br> off: disable |
 
 **Response sample:**
 
