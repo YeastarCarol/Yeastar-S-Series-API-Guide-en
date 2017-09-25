@@ -19,9 +19,9 @@ Note: can only modify one extension's alarm at a time.
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
 | **&lt;extid&gt;** | Int | The extension number | 1000 |
-| **\[time\]** | String | The original alarm time | 11:00 |
+| **\[time\]** | String | The original alarm time | 00:45 |
 | **\[wakeup\]** | Object |  |  |
-| **\[time\]** | String | Time | 11:22 |
+| **\[time\]** | String | Time | 11:00 |
 | **\[type\]** | String | Type | Options: onetime, everyday, custom |
 | **\[weekdays\]** | String | The options available when the above \[type\] is "custom" | Options: 1, 2, 3, 4, 5, 6, 0. <br>  1 to 6 corresponds to Saturday, 0 corresponds to Sunday |
 | **\[repeats\]** | String | How many times will the alarm be repeated | Options: 1, 2, 3 |
