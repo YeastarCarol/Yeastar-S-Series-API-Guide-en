@@ -20,7 +20,7 @@ Note: the call can be transferred whether it's a ringing call or an ongoing call
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
-| **&lt;outboundid&gt;** | String | The outbound ID | 1495700976.275 |
+| **&lt;outboundid&gt;** | String | The outbound ID | 1495701184.282 |
 | **&lt;outto&gt;** | String | The external number to dial | 22003 |
 | **&lt;fromext&gt;** | String | Which extension's call permission will be applied | 1000 |
 
