@@ -1,6 +1,6 @@
 # Summary
 
-* [S-Series IPPBX API User Guide](README.md)
+* [S-Series VoIP PBX API Developer's Guide](README.md)
 * [About this Guide](about_this_guide.md)
 * [API Format and Version Update Record](a.md)
 * [Introduction to the API](introduction_to_the_api/README.md)
