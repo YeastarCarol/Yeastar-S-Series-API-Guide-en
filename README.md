@@ -1,4 +1,4 @@
-# S-Series VoIP PBX API User Guide
+# S-Series VoIP PBX API Developer's Guide
 
 #### 
 
