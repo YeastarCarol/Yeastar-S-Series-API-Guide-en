@@ -60,7 +60,7 @@
     * [Delete an Alarm](api_sample/hotel_wake-up_service/delete-an-alarm.md)
     * [Play Music to an Extension](api_sample/hotel_wake-up_service/play-music-to-an-extension.md)
     * [Play Music to an External Number](api_sample/hotel_wake-up_service/play-music-to-an-external-number.md)
-  * [Acquire Global Recording Files](api_sample/acquire-global-recording-files.md)
+  * [Acquire Auto Recording Files](api_sample/acquire-global-recording-files.md)
   * ["Apply All" Interface](api_sample/apply-interface.md)
   * [System Report](api_sample/system_report.md)
     * [System Startup](api_sample/system_report/system-startup.md)

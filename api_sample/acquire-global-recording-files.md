@@ -1,14 +1,14 @@
-# Acquire Global Recording files
+# Acquire Auto Recording files
 
-Through this interface, global recording files of a IPPBX can be acquired.
+Through this interface, auto recording files of an IPPBX can be acquired.
 
 **The acquisition method is as follows:**
 
-Step1: fetch the name of the global recording file through the “recording” parameter in the CDR event
+Step 1: fetch the name of the auto recording file through the “recording” parameter in the CDR event
 
 Step 2: get a random string consisting of numbers and characters, which is created by the system, by sending a request with the file name \(as the request example below\) to IPPBX
 
-Step 3: combine the randon string with other elements to form a specific download request address
+Step 3: combine the random string with other elements to form a specific download request address
 
 **Note: **the random string is only valid for 30 seconds, and each random string can be used only once.
 
@@ -26,7 +26,7 @@ Step 3: combine the randon string with other elements to form a specific downloa
 
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
-| **&lt;recording&gt;** | String | The name of the global recording file | hello001 |
+| **&lt;recording&gt;** | String | The name of the auto recording file | hello001 |
 
 **Response sample:**
 
@@ -37,8 +37,8 @@ Step 3: combine the randon string with other elements to form a specific downloa
 | **Parameter Name** | **Type** | **Description** | **Sample** |
 | --- | --- | --- | --- |
 | **&lt;Status&gt;** | String | Result | Success or Failed |
-| **&lt;recording&gt;** | String | The name of the global recording file | Hello001 |
-| **&lt;random&gt;** | String | A random string created for global recording file download. It serves as a component of a specified request address for download. | N/A |
+| **&lt;recording&gt;** | String | The name of the auto recording file | Hello001 |
+| **&lt;random&gt;** | String | A random string created for auto recording file download. It serves as a component of a specified request address for download. | N/A |
 
 **Download request address sample \( random string combination method\):**
 
