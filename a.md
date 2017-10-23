@@ -17,7 +17,7 @@ When sending an API request, the request address must include the API version. A
 
 #### API Demo and Sample Configurations
 
- https://www.yeastar.com/download/API-Demo.zip
+[https://www.yeastar.com/download/API-Demo.zip](https://www.yeastar.com/download/API-Demo.zip)
 
 #### Version Update:
 
